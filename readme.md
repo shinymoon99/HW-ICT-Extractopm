@@ -1,4 +1,5 @@
 # HW-ICT-EventExtraction
+使用一个嵌套实体识别模型来识别论元，然后用一个“首-首”匹配和“尾-尾”匹配模型来构建论元之间的关系
 ## 环境配置
 ```
 pip install -r requirements.txt
