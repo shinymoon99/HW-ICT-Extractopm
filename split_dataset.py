@@ -21,13 +21,27 @@ def split_json_dataset(json_file_path, train_ratio=0.8, dev_ratio=0.1, test_rati
     return train_data, dev_data, test_data
 
 # Usage
-json_file_path = './datasets/formatted_event_data.json'
+json_file_path = './datasets/ICT_all_formatted.json'
 train_data, dev_data, test_data = split_json_dataset(json_file_path)
 
 # Now you have your data split into train, dev, and test datasets
+# with open("./datasets/ICT_train.json","w",encoding="utf-8") as f1:
+#     json.dump(train_data,f1,ensure_ascii=False)
+# with open("./datasets/ICT_dev.json","w",encoding="utf-8") as f2:
+#     json.dump(dev_data,f2,ensure_ascii=False)
+# with open("./datasets/ICT_test.json","w",encoding="utf-8") as f3:
+#     json.dump(test_data,f3,ensure_ascii=False)
+
+
 with open("./datasets/ICT_train.json","w",encoding="utf-8") as f1:
-    json.dump(train_data,f1,ensure_ascii=False)
+    for item in train_data:
+        json.dump(item, f1,ensure_ascii=False)  # Write JSON object to the file
+        f1.write('\n')       # Add a newline to separate objects
 with open("./datasets/ICT_dev.json","w",encoding="utf-8") as f2:
-    json.dump(dev_data,f2,ensure_ascii=False)
+    for item in dev_data:
+        json.dump(item, f2,ensure_ascii=False)  # Write JSON object to the file
+        f2.write('\n')       # Add a newline to separate objects
 with open("./datasets/ICT_test.json","w",encoding="utf-8") as f3:
-    json.dump(test_data,f3,ensure_ascii=False)
+    for item in test_data:
+        json.dump(item, f3,ensure_ascii=False)  # Write JSON object to the file
+        f3.write('\n')       # Add a newline to separate objects

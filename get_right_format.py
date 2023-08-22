@@ -1,5 +1,5 @@
 import json
-key_map = {"start":"arguments_start_index","end":"arguments_end_index","role":"role","text":"argument","alias":"alias"}
+key_map = {"start":"argument_start_index","end":"argument_end_index","role":"role","text":"argument","alias":"alias"}
 def convert2dueeArgu(arguments):
     new_arguments = []
     for argu in arguments:
@@ -14,10 +14,10 @@ with open("complex_data_label_event_20230811.json",encoding="utf-8") as f1:
 
 target = []
 
-for sentence in origin_data:
+for i,sentence in enumerate(origin_data):
     sentence_dict = {}
     sentence_dict["text"] = sentence["text"]
-    
+    sentence_dict["id"] = str(i)
             #     "event_type": "组织关系-裁员",
             # "trigger": "裁员",
             # "trigger_start_index": 15,
@@ -35,5 +35,5 @@ for sentence in origin_data:
     sentence_dict["event_list"].append(event)
     target.append(sentence_dict)
 # write to formatted
-with open("./formatted_event_data.json","w",encoding="utf-8") as f2:
+with open("./datasets/ICT_all_formatted.json","w",encoding="utf-8") as f2:
     json.dump(target,f2,ensure_ascii=False)
