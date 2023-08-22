@@ -1,0 +1,53 @@
+{"event_type": "通用行为-覆盖", "role_list": [{"role": "方式"}, {"role": "受事者"}, {"role": "施事者"}], "class": "通用行为"}
+{"event_type": "功能配置-配置", "role_list": [{"role": "受事者"}, {"role": "地点"}, {"role": "方式"}, {"role": "到对象"}, {"role": "范围"}, {"role": "内容"}], "class": "功能配置"}
+{"event_type": "通用行为-插入", "role_list": [{"role": "方式"}, {"role": "到对象"}, {"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-修改", "role_list": [{"role": "受事者"}, {"role": "到对象"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-查看", "role_list": [{"role": "方式"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-连接", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "通用行为"}
+{"event_type": "通用行为-创建", "role_list": [{"role": "受事者"}, {"role": "方式"}], "class": "通用行为"}
+{"event_type": "通用行为-点击", "role_list": [{"role": ""}, {"role": "受事者"}, {"role": "地点"}, {"role": "按钮/菜单论元角色"}], "class": "通用行为"}
+{"event_type": "通用行为-选择", "role_list": [{"role": ""}, {"role": "受事者"}, {"role": "地点"}, {"role": "按钮/菜单论元角色"}, {"role": "方式"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-完成", "role_list": [{"role": "受事者"}], "class": "通用行为"}
+{"event_type": "通用行为-控制", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-执行", "role_list": [{"role": "受事者"}], "class": "通用行为"}
+{"event_type": "通用行为-确认", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-关闭", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-验证", "role_list": [{"role": "方式"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-事件", "role_list": [{"role": "受事者"}, {"role": "到对象"}, {"role": "方式"}], "class": "通用行为"}
+{"event_type": "通用行为-输入", "role_list": [{"role": "到对象"}, {"role": "内容"}, {"role": "施事者"}], "class": "通用行为"}
+{"event_type": "通用行为-检查", "role_list": [{"role": "受事者"}, {"role": "内容"}, {"role": "方式"}], "class": "通用行为"}
+{"event_type": "通用行为-使能", "role_list": [{"role": "受事者"}, {"role": "内容"}, {"role": "方式"}], "class": "通用行为"}
+{"event_type": "通用行为-复制", "role_list": [{"role": "受事者"}, {"role": "到对象"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-指定", "role_list": [{"role": "受事者"}, {"role": "到对象"}, {"role": "目的或原因"}, {"role": "内容"}, {"role": "范围"}], "class": "通用行为"}
+{"event_type": "通用行为-卸载", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-切换", "role_list": [{"role": "受事者"}, {"role": "自对象"}, {"role": "到对象"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-穿入", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "通用行为"}
+{"event_type": "通用行为-删除", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-安装", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "通用行为"}
+{"event_type": "通用行为-退出", "role_list": [{"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-开启", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-拆下", "role_list": [{"role": "受事者"}, {"role": "自对象"}, {"role": "内容"}, {"role": "方式"}], "class": "通用行为"}
+{"event_type": "通用行为-应用", "role_list": [{"role": "受事者"}, {"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-测试", "role_list": [{"role": "内容"}], "class": "通用行为"}
+{"event_type": "通用行为-进入", "role_list": [{"role": "到对象"}], "class": "通用行为"}
+{"event_type": "功能配置-连接", "role_list": [], "class": "功能配置"}
+{"event_type": "操作命令-创建/删除", "role_list": [{"role": "对象"}], "class": "操作命令"}
+{"event_type": "系统事件-导致", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "系统事件"}
+{"event_type": "系统配置-地址配置", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "系统配置"}
+{"event_type": "操作命令-执行", "role_list": [{"role": "执行者"}, {"role": "条件"}, {"role": "对象"}], "class": "操作命令"}
+{"event_type": "系统配置-接口配置", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "系统配置"}
+{"event_type": "操作命令-创建", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "操作命令"}
+{"event_type": "配置事件-功能配置", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "配置事件"}
+{"event_type": "消息传递-发送", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "消息传递"}
+{"event_type": "配置事件-地址配置", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "配置事件"}
+{"event_type": "操作命令-部署", "role_list": [{"role": "对象"}], "class": "操作命令"}
+{"event_type": "消息传递-接收", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "消息传递"}
+{"event_type": "操作命令-选择", "role_list": [{"role": "对象"}], "class": "操作命令"}
+{"event_type": "配置事件-端口配置", "role_list": [{"role": "对象"}], "class": "配置事件"}
+{"event_type": "配置事件-接口配置", "role_list": [{"role": "对象"}], "class": "配置事件"}
+{"event_type": "操作命令-输入", "role_list": [{"role": "对象"}], "class": "操作命令"}
+{"event_type": "配置事件-系统配置", "role_list": [{"role": ""}, {"role": "执行者"}, {"role": "对象"}], "class": "配置事件"}
+{"event_type": "操作命令-设置", "role_list": [{"role": "对象"}], "class": "操作命令"}
+{"event_type": "系统事件-激活", "role_list": [{"role": "对象"}], "class": "系统事件"}
+{"event_type": "操作命令-查看", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "操作命令"}
+{"event_type": "操作命令-过滤", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "操作命令"}

@@ -1,0 +1,26 @@
+{
+    "text": "消失的“外企光环”，5月份在华裁员900余人，香饽饽变“臭”了",
+    "id": "cba11b5059495e635b4f95e7484b2684",
+    "event_list": [
+        {
+            "event_type": "组织关系-裁员",
+            "trigger": "裁员",
+            "trigger_start_index": 15,
+            "arguments": [
+                {
+                    "argument_start_index": 17,
+                    "role": "裁员人数",
+                    "argument": "900余人",
+                    "alias": []
+                },
+                {
+                    "argument_start_index": 10,
+                    "role": "时间",
+                    "argument": "5月份",
+                    "alias": []
+                }
+            ],
+            "class": "组织关系"
+        }
+    ]
+}

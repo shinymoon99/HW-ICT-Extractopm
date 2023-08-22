@@ -1,0 +1,7152 @@
+[
+  {
+    "text": "用户通过HTTP上传的文件将本地的文件覆盖。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 2,
+        "role": "施事者",
+        "text": "用户",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 2,
+        "end": 13,
+        "role": "方式",
+        "text": "通过HTTP上传的文件",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "role": "受事者",
+        "text": "本地的文件",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "覆盖",
+    "start": 19,
+    "end": 21,
+    "event_class": [
+      "通用行为",
+      "覆盖"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 配置Voice VLAN的802.1p和DSCP优先级。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "受事者",
+        "text": "Voice VLAN",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 30,
+        "role": "内容",
+        "text": "802.1p和DSCP优先级",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "10. 按照记录的信息插入之前拆下的模块和线缆。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 11,
+        "role": "方式",
+        "text": "按照记录的信息",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "role": "内容",
+        "text": "之前拆下的模块和线缆",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "插入",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "插入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 修改提供Web服务的本地端口。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 17,
+        "role": "内容",
+        "text": "提供Web服务的本地端口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "修改",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "修改"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 选择执行下列命令，配置不同的过滤器进行路由过滤。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 11,
+        "role": "方式",
+        "text": "选择执行下列命令",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 26,
+        "role": "内容",
+        "text": "不同的过滤器进行路由过滤",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 12,
+    "end": 14,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 配置AGG ASBR和Core ASBR",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 22,
+        "role": "内容",
+        "text": "AGG ASBR和Core ASBR",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 配置设备全局发送LLDP报文的周期。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 19,
+        "role": "内容",
+        "text": "设备全局发送LLDP报文的周期",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "查看Stack-Port端口的事件信息",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 19,
+        "role": "内容",
+        "text": "Stack-Port端口的事件信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 将熔接了尾纤的主缆，连接到HDF架后方对应编号的接口。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 12,
+        "role": "受事者",
+        "text": "熔接了尾纤的主缆",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "role": "到对象",
+        "text": "HDF架后方对应编号的接口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "连接",
+    "start": 13,
+    "end": 15,
+    "event_class": [
+      "通用行为",
+      "连接"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 新建Portal认证服务器。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 15,
+        "role": "受事者",
+        "text": "Portal认证服务器",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "新建",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 单击“下载”，将License文件下载到本地。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 8,
+        "role": "按钮/菜单论元角色",
+        "text": "下载",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "将License文件下载到本地",
+      "start": 10,
+      "end": 25
+    }
+  },
+  {
+    "text": "1. 单击对应配置项后面的“增加”。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 17,
+        "role": "按钮/菜单论元角色",
+        "text": "对应配置项后面的“增加”",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 单击“上传”，开始上传补丁文件。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 8,
+        "role": "",
+        "text": "上传",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "开始上传补丁文件",
+      "start": 10,
+      "end": 18
+    }
+  },
+  {
+    "text": "2. 勾选“使用预置模板”",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 12,
+        "role": "按钮/菜单论元角色",
+        "text": "使用预置模板",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "单击“应用”",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 5,
+        "role": "按钮/菜单论元角色",
+        "text": "应用",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "完成新建预置终端识别模板的配置。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 15,
+        "role": "受事者",
+        "text": "新建预置终端识别模板的配置",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "完成",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "完成"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 控制BGP向特定对等体（组）发布路由",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 13,
+        "role": "受事者",
+        "text": "BGP向特定对等体",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "role": "内容",
+        "text": "发布路由",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "控制",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "控制"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 执行命令[ **ipv6**](cmdqueryname=ipv6)，全局使能IPv6功能。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 37,
+        "role": "受事者",
+        "text": "命令[ **ipv6**](cmdqueryname=ipv6)",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "全局使能IPv6功能",
+      "start": 38,
+      "end": 48
+    }
+  },
+  {
+    "text": "1. 确认与交换机相连的外部电源开关、交换机电源模块开关置于OFF状态。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 28,
+        "role": "受事者",
+        "text": "与交换机相连的外部电源开关、交换机电源模块开关",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "role": "内容",
+        "text": "置于OFF状态",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "确认",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "确认"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 设备作为DHCP Relay时，执行如下命令，请求DHCP Server释放客户端的IP地址：",
+    "event_list": [
+      {
+        "start": 20,
+        "end": 24,
+        "role": "受事者",
+        "text": "如下命令",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 18,
+    "end": 20,
+    "event_class": [
+      "通用行为",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "设备作为DHCP Relay时",
+      "start": 2,
+      "end": 17
+    },
+    "event_post": {
+      "text": "请求DHCP Server释放客户端的IP地址",
+      "start": 25,
+      "end": 48
+    }
+  },
+  {
+    "text": "4. （可选）关闭指定协议的端口防攻击功能。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 16,
+        "role": "受事者",
+        "text": "指定协议的端口",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "role": "内容",
+        "text": "防攻击功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "关闭",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "关闭"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 单击功能选择区的“网络”菜单，进入“网络”界面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 17,
+        "role": "",
+        "text": "功能选择区的“网络”菜单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入“网络”界面",
+      "start": 18,
+      "end": 26
+    }
+  },
+  {
+    "text": "7. （可选）配置设备禁止向上游路由器发送IGMP Query报文。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 33,
+        "role": "内容",
+        "text": "设备禁止向上游路由器发送IGMP Query报文",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 配置FTP服务器的IP地址、用户名、密码及工作目录。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 11,
+        "role": "受事者",
+        "text": "FTP服务器",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 12,
+        "end": 28,
+        "role": "内容",
+        "text": "IP地址、用户名、密码及工作目录",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 使用Tracert命令验证连通性。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 14,
+        "role": "方式",
+        "text": "使用Tracert命令",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "role": "内容",
+        "text": "连通性",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "验证",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "通用行为",
+      "验证"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 将凤凰端子插入到交换机或电源模块的交流输入端口，并拧紧凤凰端子两边的固定螺钉。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 8,
+        "role": "受事者",
+        "text": "凤凰端子",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "role": "到对象",
+        "text": "凤凰端子",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "插入",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "通用行为",
+      "插入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "并拧紧凤凰端子两边的固定螺钉",
+      "start": 27,
+      "end": 41
+    }
+  },
+  {
+    "text": "2. 根据线缆在机柜中的走线方向，剪切线缆。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 7,
+        "role": "受事者",
+        "text": "线缆",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 16,
+        "role": "方式",
+        "text": "根据线缆在机柜中的走线方向",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "剪切",
+    "start": 17,
+    "end": 19,
+    "event_class": [
+      "通用行为",
+      "事件"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "请根据当前接口模式自行选择是否要执行此步骤。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 11,
+        "role": "方式",
+        "text": "根据当前接口模式自行",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "role": "内容",
+        "text": "是否要执行此步骤",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 单击“应用”，完成配置。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 8,
+        "role": "按钮/菜单论元角色",
+        "text": "应用",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "完成配置",
+      "start": 10,
+      "end": 14
+    }
+  },
+  {
+    "text": "* dst-mac：根据目的MAC地址进行负载分担。",
+    "event_list": [
+      {
+        "start": 10,
+        "end": 19,
+        "role": "方式",
+        "text": "根据目的MAC地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "负载分担",
+    "start": 21,
+    "end": 25,
+    "event_class": [
+      "通用行为",
+      "事件"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 依次单击“无线业务 > WIDS配置 > 动态黑名单”，进入“动态黑名单”页面。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 29,
+        "role": "按钮/菜单论元角色",
+        "text": "无线业务 > WIDS配置 > 动态黑名单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入“动态黑名单”页面",
+      "start": 31,
+      "end": 42
+    }
+  },
+  {
+    "text": "4. 用户输入用户名、密码后再次进入Web网管首页。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 5,
+        "role": "施事者",
+        "text": "用户",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "role": "内容",
+        "text": "用户名、密码",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "用户名、密码",
+      "start": 7,
+      "end": 13
+    }
+  },
+  {
+    "text": "1. 依次单击“配置 > 基本业务管理 > VLAN”菜单。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 26,
+        "role": "按钮/菜单论元角色",
+        "text": "配置 > 基本业务管理 > VLAN",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置接口允许通过的VLAN，取值范围是1～4094。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 13,
+        "role": "内容",
+        "text": "接口允许通过的VLAN",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "role": "范围",
+        "text": "取值范围是1～4094",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 检查新电源模块工作是否正常。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 10,
+        "role": "受事者",
+        "text": "新电源模块",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "role": "内容",
+        "text": "工作是否正常",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "检查",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "检查"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 配置BGP对从全局接收的路由进行过滤",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 7,
+        "role": "受事者",
+        "text": "BGP",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 7,
+        "end": 20,
+        "role": "内容",
+        "text": "对从全局接收的路由进行过滤",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 依次单击“配置 > 安全业务管理 > AAA配置”菜单，选择“业务随行”页签。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 27,
+        "role": "",
+        "text": "配置 > 安全业务管理 > AAA配置",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "选择“业务随行”页签",
+      "start": 31,
+      "end": 41
+    }
+  },
+  {
+    "text": "* 使能单个接口的Loopback Detection功能",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 4,
+        "role": "受事者",
+        "text": "使能",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 9,
+        "end": 29,
+        "role": "内容",
+        "text": "Loopback Detection功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 单击导航树中的“诊断工具”菜单，进入“诊断工具”界面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 16,
+        "role": "",
+        "text": "导航树中的“诊断工具”",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "导航树中的“诊断工具”",
+      "start": 5,
+      "end": 16
+    }
+  },
+  {
+    "text": "1. 勾选需要移出的AP，单击“移出”，在弹出框中选择移出后AP需要加入的AP组。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 12,
+        "role": "受事者",
+        "text": "需要移出的AP",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "单击“移出”，在弹出框中选择移出后AP需要加入的AP组",
+      "start": 13,
+      "end": 40
+    }
+  },
+  {
+    "text": "* 配置simple加密方式认证。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 16,
+        "role": "内容",
+        "text": "simple加密方式认证",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 确认License是否是“Ready”状态。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 12,
+        "role": "受事者",
+        "text": "License",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "role": "内容",
+        "text": "是否是“Ready”状态",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "确认",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "确认"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 通过巡视检查设备电源线是否正确地连接到设备的指定位置上，且连接牢固。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 7,
+        "role": "方式",
+        "text": "通过巡视",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "role": "受事者",
+        "text": "设备电源线",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 36,
+        "role": "内容",
+        "text": "是否正确地连接到设备的指定位置上，且连接牢固",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "检查",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "检查"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 拷贝备份的配置文件并指定配置文件名。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 5,
+        "role": "内容",
+        "text": "拷贝",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拷贝",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "复制"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "指定配置文件名",
+      "start": 13,
+      "end": 20
+    }
+  },
+  {
+    "text": "指定接口Join/Prune报文中Join信息的合法源地址范围，防止非法用户的加入。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 2,
+        "role": "受事者",
+        "text": "指定",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "role": "内容",
+        "text": "合法源地址范围",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "role": "目的或原因",
+        "text": "防止非法用户的加入",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 在“模板名称”处输入新建的模板名称。",
+    "event_list": [
+      {
+        "start": 11,
+        "end": 13,
+        "role": "内容",
+        "text": "输入",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "role": "到对象",
+        "text": "输入",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 在以太网子菜单下，选择2，进入修改以太网参数菜单。",
+    "event_list": [
+      {
+        "start": 14,
+        "end": 15,
+        "role": "按钮/菜单论元角色",
+        "text": "2",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 27,
+        "role": "地点",
+        "text": "进入修改以太网参数菜单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 0,
+    "end": 0,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入修改以太网参数菜单",
+      "start": 16,
+      "end": 27
+    }
+  },
+  {
+    "text": "选择对应的VLAN ID取消接口加入的该VLAN组播组。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 12,
+        "role": "受事者",
+        "text": "对应的VLAN ID",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "取消接口加入的该VLAN组播组",
+      "start": 12,
+      "end": 27
+    }
+  },
+  {
+    "text": "* 卸载设备下次启动加载的插件。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 6,
+        "role": "受事者",
+        "text": "设备",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 6,
+        "end": 15,
+        "role": "内容",
+        "text": "下次启动加载的插件",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "卸载",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "卸载"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 确认配置无误后，单击“完成”，完成配置确认。",
+    "event_list": [
+      {
+        "start": 14,
+        "end": 16,
+        "role": "",
+        "text": "完成",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "确认配置无误",
+    "start": 3,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "确认配置无误",
+      "start": 3,
+      "end": 9
+    },
+    "event_post": {
+      "text": "完成配置确认",
+      "start": 18,
+      "end": 24
+    }
+  },
+  {
+    "text": "* OFF：关闭流量控制功能。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 14,
+        "role": "内容",
+        "text": "流量控制功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "关闭",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "关闭"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 切换NetStream模式。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 16,
+        "role": "内容",
+        "text": "NetStream模式",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "切换",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "切换"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 选中“仅生成交换机堆叠license（数通使用）”。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 27,
+        "role": "",
+        "text": "仅生成交换机堆叠license（数通使用）",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选中",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 使能RIP进程在指定网段上发送和接收路由。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 9,
+        "role": "受事者",
+        "text": "RIP进程",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 9,
+        "end": 22,
+        "role": "内容",
+        "text": "在指定网段上发送和接收路由",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 勾选设备面板名称前的选框，可同时选中该设备面板上所有接口。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 14,
+        "role": "内容",
+        "text": "设备面板名称前的选框",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "可同时选中该设备面板上所有接口",
+      "start": 15,
+      "end": 30
+    }
+  },
+  {
+    "text": "* OFF：关闭端口隔离功能。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 14,
+        "role": "内容",
+        "text": "端口隔离功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "关闭",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "关闭"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 在“修改用户”对话框中输入新的“密码”、“确认密码”。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 14,
+        "role": "到对象",
+        "text": "在“修改用户”对话框中",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "role": "内容",
+        "text": "新的“密码”、“确认密码”",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "8. （可选）使能二层协议透明传输功能的接口丢弃协议报文的阈值。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 19,
+        "role": "受事者",
+        "text": "二层协议透明传输功能",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 20,
+        "end": 31,
+        "role": "内容",
+        "text": "接口丢弃协议报文的阈值",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 输入需要查询的接口编号，如： **12** 。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 14,
+        "role": "内容",
+        "text": "需要查询的接口编号",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "单击“卸载”，删除当前系统上的补丁。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 5,
+        "role": "按钮/菜单论元角色",
+        "text": "卸载",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "删除当前系统上的补丁",
+      "start": 7,
+      "end": 17
+    }
+  },
+  {
+    "text": "3. 请阅读“用户须知”中的内容，勾选“我已详细阅读”并单击“下一步”。",
+    "event_list": [
+      {
+        "start": 20,
+        "end": 26,
+        "role": "",
+        "text": "我已详细阅读",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 17,
+    "end": 19,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "请阅读“用户须知”中的内容",
+      "start": 3,
+      "end": 16
+    },
+    "event_post": {
+      "text": "单击“下一步”",
+      "start": 28,
+      "end": 35
+    }
+  },
+  {
+    "text": "1. 依次单击“监控 > 用户 > 无线用户统计”，进入“无线用户统计”页面。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 24,
+        "role": "按钮/菜单论元角色",
+        "text": "监控 > 用户 > 无线用户统计",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "监控 > 用户 > 无线用户统计",
+      "start": 8,
+      "end": 24
+    }
+  },
+  {
+    "text": "4. 使能接口的IPv6功能。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 7,
+        "role": "受事者",
+        "text": "接口",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 8,
+        "end": 14,
+        "role": "内容",
+        "text": "IPv6功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 单击“应用”，完成配置。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 5,
+        "role": "",
+        "text": "单击",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "完成配置",
+      "start": 10,
+      "end": 14
+    }
+  },
+  {
+    "text": "* OFF：关闭节能模式功能。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 14,
+        "role": "内容",
+        "text": "节能模式功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "关闭",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "关闭"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 将中间文件usb.ini拷贝至U盘，此文件必须保存至U盘根目录下。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 15,
+        "role": "受事者",
+        "text": "中间文件usb.ini",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 18,
+        "end": 20,
+        "role": "到对象",
+        "text": "U盘",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拷贝",
+    "start": 15,
+    "end": 17,
+    "event_class": [
+      "通用行为",
+      "复制"
+    ],
+    "event_pre": {
+      "text": "此文件必须保存至U盘根目录下",
+      "start": 21,
+      "end": 35
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 连接高速电缆到交换机接口。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 9,
+        "role": "受事者",
+        "text": "高速电缆",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "role": "到对象",
+        "text": "交换机接口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "连接",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "连接"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "端口安全功能使能后，接口上会出现黄色盾牌形标识。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "内容",
+        "text": "端口安全功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "接口上会出现黄色盾牌形标识",
+      "start": 10,
+      "end": 23
+    }
+  },
+  {
+    "text": "配置设备与控制器建立连接时使用的对接密码。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 20,
+        "role": "内容",
+        "text": "设备与控制器建立连接时使用的对接密码",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 将跳线穿入机柜侧面的走线空间。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 6,
+        "role": "受事者",
+        "text": "跳线",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 8,
+        "end": 17,
+        "role": "到对象",
+        "text": "机柜侧面的走线空间",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "穿入",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "穿入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置接口加入的缺省VLAN，取值范围为1～4094。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 13,
+        "role": "内容",
+        "text": "接口加入的缺省VLAN",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "role": "范围",
+        "text": "1～4094",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置Trunk类型接口的缺省VLAN，取值范围是1～4094。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 18,
+        "role": "内容",
+        "text": "Trunk类型接口的缺省VLAN",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "role": "范围",
+        "text": "1～4094",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定敏感信息加密使用的预共享密钥。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "敏感信息加密使用的预共享密钥",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定接口静态加入的组播组地址。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 14,
+        "role": "内容",
+        "text": "接口静态加入的组播组地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 配置流量监管实现接口限速后，清除指定接口上通过和丢弃的报文统计信息。",
+    "event_list": [
+      {
+        "start": 18,
+        "end": 22,
+        "role": "受事者",
+        "text": "指定接口",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "role": "内容",
+        "text": "通过和丢弃的报文统计信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置流量监管实现接口限速后",
+    "start": 2,
+    "end": 15,
+    "event_class": [
+      "通用行为",
+      "删除"
+    ],
+    "event_pre": {
+      "text": "配置流量监管实现接口限速后",
+      "start": 2,
+      "end": 15
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 配置Keychain认证。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "内容",
+        "text": "Keychain认证",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定识别规则为全部匹配或部分匹配。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "识别规则为全部匹配或部分匹配",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "查看Eth-Trunk接口故障原因",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 17,
+        "role": "内容",
+        "text": "Eth-Trunk接口故障原因",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "9. 将新交换机安装到原位置，安装M6螺钉。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 8,
+        "role": "受事者",
+        "text": "新交换机",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 14,
+        "role": "到对象",
+        "text": "原位置",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "安装",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "通用行为",
+      "安装"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "安装M6螺钉",
+      "start": 15,
+      "end": 21
+    }
+  },
+  {
+    "text": "4. 使能ARP网关代答功能。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 14,
+        "role": "内容",
+        "text": "ARP网关代答功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 可根据“日志级别”和“时间范围”查询指定日志。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 19,
+        "role": "方式",
+        "text": "根据“日志级别”和“时间范围”",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "role": "内容",
+        "text": "指定日志",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查询",
+    "start": 19,
+    "end": 21,
+    "event_class": [
+      "通用行为",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. （可选）退出路由环路告警状态并清除环路检测告警。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 17,
+        "role": "内容",
+        "text": "路由环路告警状态",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "退出",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "退出"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "清除环路检测告警",
+      "start": 18,
+      "end": 26
+    }
+  },
+  {
+    "text": "4. 打开交换机或电源模块上的开关。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 17,
+        "role": "内容",
+        "text": "交换机或电源模块上的开关",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "打开",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "开启"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 设置文件名为 **usb.ini** 。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 8,
+        "role": "受事者",
+        "text": "文件名",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "role": "到对象",
+        "text": "usb.ini",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "设置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "为模板配置AS接口入方向上DHCP报文的限速值。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 3,
+        "role": "受事者",
+        "text": "模板",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 5,
+        "end": 23,
+        "role": "内容",
+        "text": "AS接口入方向上DHCP报文的限速值",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 配置接口的链路类型为Hybrid。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 12,
+        "role": "受事者",
+        "text": "接口的链路类型",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "role": "到对象",
+        "text": "Hybrid",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 配置新的rule规则，并删除不用的rule规则。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 13,
+        "role": "内容",
+        "text": "新的rule规则",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "删除不用的rule规则",
+      "start": 15,
+      "end": 26
+    }
+  },
+  {
+    "text": "* 单击“全部通过认证”，确认所有认证未通过的AP，允许其上线。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 11,
+        "role": "",
+        "text": "全部通过认证",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "确认所有认证未通过的AP，允许其上线",
+      "start": 13,
+      "end": 31
+    }
+  },
+  {
+    "text": "2. 执行命令[ **ipv6**](ipv6.html)，使能IPv6功能。",
+    "event_list": [
+      {
+        "start": 32,
+        "end": 38,
+        "role": "内容",
+        "text": "IPv6功能",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 29,
+        "role": "方式",
+        "text": "执行命令[ **ipv6**](ipv6.html)",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 30,
+    "end": 32,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定在URL中携带接入用户访问的原始URL地址。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 22,
+        "role": "内容",
+        "text": "在URL中携带接入用户访问的原始URL地",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "再次输入设备与Portal服务器信息交互的共享密钥。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 25,
+        "role": "内容",
+        "text": "设备与Portal服务器信息交互的共享密钥",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "7. （可选）配置在邻居状态由Down到Up时将BGP4+路由的优先级调整为最低优先级。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 43,
+        "role": "内容",
+        "text": "在邻居状态由Down到Up时将BGP4+路由的优先级调整为最低优先级",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 拔下光模块上的防尘塞和光纤连接器上的防尘帽。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 24,
+        "role": "内容",
+        "text": "光模块上的防尘塞和光纤连接器上的防尘帽",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拔下",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "7. 使能接口的二层协议透明传输功能。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 18,
+        "role": "内容",
+        "text": "接口的二层协议透明传输功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 将SIM卡从SIM卡槽内取出。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 8,
+        "role": "受事者",
+        "text": "SIM卡",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "role": "自对象",
+        "text": "SIM卡槽",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "取出",
+    "start": 15,
+    "end": 17,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "必选，指定是否开启VLAN的MAC地址学习：",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 21,
+        "role": "内容",
+        "text": "是否开启VLAN的MAC地址学习",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 将交换机和HDF架分别安装到机柜中，安装光电混合交换机和HDF架间距推荐为3U。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 12,
+        "role": "受事者",
+        "text": "交换机和HDF架",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 17,
+        "end": 19,
+        "role": "到对象",
+        "text": "机柜",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "安装",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "通用行为",
+      "安装"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "安装光电混合交换机和HDF架间距推荐为3U",
+      "start": 21,
+      "end": 42
+    }
+  },
+  {
+    "text": "4. 根据需要，配置PIM剪枝控制参数",
+    "event_list": [
+      {
+        "start": 10,
+        "end": 19,
+        "role": "内容",
+        "text": "PIM剪枝控制参数",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "role": "方式",
+        "text": "根据需要",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "10. （可选）配置设备重启后将BGP4+路由延迟发布。",
+    "event_list": [
+      {
+        "start": 10,
+        "end": 27,
+        "role": "内容",
+        "text": "设备重启后将BGP4+路由延迟发布",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 打开与交换机相连的外部电源开关。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 18,
+        "role": "内容",
+        "text": "与交换机相连的外部电源开关",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "打开",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "开启"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "选择是否将堆叠分裂后进入Recovery状态的设备被关闭的所有端口重新恢复正常。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 39,
+        "role": "内容",
+        "text": "是否将堆叠分裂后进入Recovery状态的设备被关闭的所有端口重新恢复正常",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 执行命令 **display hsb-resource map** ，查看HSB资源映射信息。",
+    "event_list": [
+      {
+        "start": 39,
+        "end": 48,
+        "role": "内容",
+        "text": "HSB资源映射信息",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 2,
+        "end": 35,
+        "role": "方式",
+        "text": "执行命令 **display hsb-resource map**",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 37,
+    "end": 39,
+    "event_class": [
+      "通用行为",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 检查电源线的连接是否正确。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "内容",
+        "text": "电源线的连接是否正确",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "检查",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "检查"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 配置接口的LLDP工作模式。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 16,
+        "role": "内容",
+        "text": "接口的LLDP工作模式",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 单击提示框的“确定”，完成配置。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 13,
+        "role": "",
+        "text": "提示框的“确定”",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "完成配置",
+      "start": 14,
+      "end": 18
+    }
+  },
+  {
+    "text": "指定设备与控制器通信的源IP地址。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "设备与控制器通信的源IP地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 单击需要修改的认证服务器名称，进入修改认证服务器页面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 17,
+        "role": "受事者",
+        "text": "需要修改的认证服务器名称",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入修改认证服务器页面",
+      "start": 18,
+      "end": 29
+    }
+  },
+  {
+    "text": "* 删除Portal认证服务器。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 15,
+        "role": "内容",
+        "text": "Portal认证服务器",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "删除",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "删除"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 删除对预认证状态用户应用的业务方案",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 19,
+        "role": "内容",
+        "text": "对预认证状态用户应用的业务方案",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "删除",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "删除"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "必选。输入新增的LoopBack接口的编号。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 21,
+        "role": "内容",
+        "text": "新增的LoopBack接口的编号",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 在左边树形导航栏选择：“License激活 > 授权激活”，进入授权激活页面。",
+    "event_list": [
+      {
+        "start": 15,
+        "end": 31,
+        "role": "按钮/菜单论元角色",
+        "text": "License激活 > 授权激活",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 11,
+        "role": "地点",
+        "text": "在左边树形导航栏",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入授权激活页面",
+      "start": 33,
+      "end": 41
+    }
+  },
+  {
+    "text": "7. 勾选“查看双向镜像端口”前的单选框，查看双向镜像端口。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 14,
+        "role": "按钮/菜单论元角色",
+        "text": "查看双向镜像端口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "查看双向镜像端口",
+      "start": 6,
+      "end": 14
+    }
+  },
+  {
+    "text": "4. 检查电源线缆的连接是否正确。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 16,
+        "role": "内容",
+        "text": "电源线缆的连接是否正确",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "检查",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "检查"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定接口所在VLAN的编号，取值范围是1～4094。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 13,
+        "role": "内容",
+        "text": "接口所在VLAN的编号",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "role": "范围",
+        "text": "1～4094",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置模板中未知单播流量抑制功能的包速率。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 19,
+        "role": "内容",
+        "text": "模板中未知单播流量抑制功能的包速率",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 用十字螺丝刀拆下直流接线端子处的2个螺钉。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 9,
+        "role": "方式",
+        "text": "用十字螺丝刀",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 23,
+        "role": "内容",
+        "text": "直流接线端子处的2个螺钉",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拆下",
+    "start": 9,
+    "end": 11,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 从交换机中拔出电源模块。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 7,
+        "role": "自对象",
+        "text": "交换机",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "role": "受事者",
+        "text": "电源模块",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拔出",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 将逻辑堆叠口stack-port0/1中的成员端口XGE0/0/1修改为XGE0/0/3。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 36,
+        "role": "受事者",
+        "text": "逻辑堆叠口stack-port0/1中的成员端口XGE0/0/1",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "role": "到对象",
+        "text": "XGE0/0/3",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "修改",
+    "start": 36,
+    "end": 38,
+    "event_class": [
+      "通用行为",
+      "修改"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 在弹出提示框中单击“确定”，完成配置。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 9,
+        "role": "地点",
+        "text": "弹出提示框",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 10,
+    "end": 12,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "弹出提示框",
+      "start": 4,
+      "end": 9
+    }
+  },
+  {
+    "text": "查看设备本次以及下次启动的配置文件名",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 18,
+        "role": "内容",
+        "text": "设备本次以及下次启动的配置文件名",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 对SSL客户端或服务器应用SSL策略。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 14,
+        "role": "受事者",
+        "text": "SSL客户端或服务器",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "role": "内容",
+        "text": "SSL策略",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "应用",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "通用行为",
+      "应用"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "单击“全部移出”，可移出指定AP组下的全部AP。",
+    "event_list": [
+      {
+        "start": 3,
+        "end": 7,
+        "role": "按钮/菜单论元角色",
+        "text": "全部移出",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "可移出指定AP组下的全部AP",
+      "start": 9,
+      "end": 23
+    }
+  },
+  {
+    "text": "* （可选）使能OLC告警功能",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 15,
+        "role": "内容",
+        "text": "OLC告警功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. （可选）配置BGP4+内存保护。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 18,
+        "role": "内容",
+        "text": "BGP4+内存保护",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "测试与LDAP认证服务器的连通性",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "与LDAP认证服务器的连通性",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "测试",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "测试"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 单击“配置 > 进阶业务管理 > 镜像配置”菜单，进入“镜像配置”界面。",
+    "event_list": [
+      {
+        "start": 6,
+        "end": 24,
+        "role": "",
+        "text": "配置 > 进阶业务管理 > 镜像配置",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入“镜像配置”界面",
+      "start": 28,
+      "end": 38
+    }
+  },
+  {
+    "text": "2. 在接收端开启三层Eth-Trunk成员接口检测功能。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 7,
+        "role": "受事者",
+        "text": "接收端",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 9,
+        "end": 28,
+        "role": "内容",
+        "text": "三层Eth-Trunk成员接口检测功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "开启",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "通用行为",
+      "开启"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定终端需要匹配的DHCP Option选项值。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 23,
+        "role": "内容",
+        "text": "终端需要匹配的DHCP Option选项值",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 使能VPN实例的PIM-SM",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 9,
+        "role": "受事者",
+        "text": "VPN实例",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "role": "内容",
+        "text": "PIM-SM",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "使能",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "通用行为",
+      "使能"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 将需要熔接的光纤和尾纤一端分别穿入熔接保护管的螺帽。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 16,
+        "role": "受事者",
+        "text": "需要熔接的光纤和尾纤一端",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "role": "到对象",
+        "text": "熔接保护管的螺帽",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "穿入",
+    "start": 18,
+    "end": 20,
+    "event_class": [
+      "通用行为",
+      "穿入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "勾选创建VLANIF接口可配置。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 15,
+        "role": "按钮/菜单论元角色",
+        "text": "创建VLANIF接口可配置",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "勾选",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定域名所对应的IPv6地址。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 14,
+        "role": "内容",
+        "text": "域名所对应的IPv6地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 用十字螺丝刀逆时针方向转动，拧开电源模块上的松不脱螺钉。",
+    "event_list": [
+      {
+        "start": 19,
+        "end": 30,
+        "role": "受事者",
+        "text": "电源模块上的松不脱螺钉",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 16,
+        "role": "方式",
+        "text": "用十字螺丝刀逆时针方向转动",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拧开",
+    "start": 17,
+    "end": 19,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "清除LACP模式Eth-Trunk接口的LACP报文统计信息",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 30,
+        "role": "内容",
+        "text": "LACP模式Eth-Trunk接口的LACP报文统计信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "清除",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "删除"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 根据生成规则自动创建MIP。",
+    "event_list": [
+      {
+        "start": 12,
+        "end": 15,
+        "role": "受事者",
+        "text": "MIP",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 2,
+        "end": 10,
+        "role": "方式",
+        "text": "根据生成规则自动",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "创建",
+    "start": 10,
+    "end": 12,
+    "event_class": [
+      "通用行为",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 启用全局的LLDP功能。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 14,
+        "role": "内容",
+        "text": "全局的LLDP功能",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "启用",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "开启"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 单击导航树中的“系统管理 > 堆叠”菜单，进入“堆叠”界面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 23,
+        "role": "按钮/菜单论元角色",
+        "text": "导航树中的“系统管理 > 堆叠”菜单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入“堆叠”界面",
+      "start": 24,
+      "end": 32
+    }
+  },
+  {
+    "text": "7. （可选）配置BGP把发布给邻居的路由改为最低优先级。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 28,
+        "role": "内容",
+        "text": "BGP把发布给邻居的路由改为最低优先级",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "选择在报文流入方向应用的过滤ACL。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 17,
+        "role": "内容",
+        "text": "在报文流入方向应用的过滤ACL",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 在弹出的对话框中单击“确定”。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 11,
+        "role": "地点",
+        "text": "弹出的对话框中",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 16,
+        "role": "按钮/菜单论元角色",
+        "text": "确定",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 将Sub-VLAN加入Super-VLAN。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 12,
+        "role": "受事者",
+        "text": "Sub-VLAN",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "role": "到对象",
+        "text": "Super-VLAN",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "加入",
+    "start": 12,
+    "end": 14,
+    "event_class": [
+      "通用行为",
+      "插入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 在SwitchB配置两条IP静态路由。",
+    "event_list": [
+      {
+        "start": 13,
+        "end": 21,
+        "role": "内容",
+        "text": "两条IP静态路由",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 4,
+        "end": 11,
+        "role": "地点",
+        "text": "SwitchB",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. （可选）配置BGP内存保护。",
+    "event_list": [
+      {
+        "start": 9,
+        "end": 16,
+        "role": "内容",
+        "text": "BGP内存保护",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 7,
+    "end": 9,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "* 直连：配置直连方式多主检测。",
+    "event_list": [
+      {
+        "start": 7,
+        "end": 15,
+        "role": "内容",
+        "text": "直连方式多主检测",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "6. 配置接口以untagged方式允许缺省VLAN通过。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 28,
+        "role": "内容",
+        "text": "接口以untagged方式允许缺省VLAN通过",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 进入“无线报文捕获”页面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "到对象",
+        "text": "“无线报文捕获”页面",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "进入",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "进入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "4. 请根据实际需要，选择配置如下IS-IS接口的认证模式。",
+    "event_list": [
+      {
+        "start": 17,
+        "end": 29,
+        "role": "内容",
+        "text": "IS-IS接口的认证模式",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "role": "方式",
+        "text": "根据实际需要",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "“无线报文捕获”页面",
+    "start": 0,
+    "end": 0,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定CAPWAP心跳检测时间间隔。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "CAPWAP心跳检测时间间隔",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置Join/Prune报文中Join信息的合法源地址范围",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 29,
+        "role": "内容",
+        "text": "Join/Prune报文中Join信息的合法源地址范围",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 检查线缆布放是否整齐有序。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "内容",
+        "text": "线缆布放是否整齐有序",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "检查",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "检查"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "2. 根据端口数量和工勘距离选择对应数量和长度的高速电缆。",
+    "event_list": [
+      {
+        "start": 16,
+        "end": 28,
+        "role": "内容",
+        "text": "对应数量和长度的高速电缆",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 3,
+        "end": 14,
+        "role": "方式",
+        "text": "根据端口数量和工勘距离",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "通用行为",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 单击导航树中的“安全 > AAA配置 > 域管理”菜单，进入“域管理”界面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 30,
+        "role": "",
+        "text": "导航树中的“安全 > AAA配置 > 域管理”菜单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入“域管理”界面",
+      "start": 31,
+      "end": 40
+    }
+  },
+  {
+    "text": "1. 用十字螺丝刀拆下直流接线端子上的保护盖。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 9,
+        "role": "方式",
+        "text": "十字螺丝刀",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 22,
+        "role": "受事者",
+        "text": "直流接线端子上的保护盖",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "拆下",
+    "start": 9,
+    "end": 11,
+    "event_class": [
+      "通用行为",
+      "拆下"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定是否开启VLAN内的ARP代理：",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 17,
+        "role": "内容",
+        "text": "是否开启VLAN内的ARP代理",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置安全MAC地址的限制数，取值范围为1～1024。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 13,
+        "role": "内容",
+        "text": "安全MAC地址的限制数",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "role": "范围",
+        "text": "1～1024",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "功能配置",
+      "配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "5. 将CA证书导入到设备内存。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 8,
+        "role": "受事者",
+        "text": "CA证书",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "role": "到对象",
+        "text": "设备内存",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "导入",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "通用行为",
+      "事件"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定6G频段的带宽的调优信道集合。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "内容",
+        "text": "6G频段的带宽的调优信道集合",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "指定"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "1. 单击导航树中的“工具 > Ping”菜单，进入“Ping”界面。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 23,
+        "role": "",
+        "text": "导航树中的“工具 > Ping”菜单",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "单击",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "通用行为",
+      "点击"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "导航树中的“工具 > Ping”菜单",
+      "start": 5,
+      "end": 23
+    }
+  },
+  {
+    "text": "输入新增的LoopBack的IP地址。如： **10.10.10.1** 。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 18,
+        "role": "内容",
+        "text": "新增的LoopBack的IP地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "通用行为",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "3. 将接口从二层模式切换到三层模式。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 6,
+        "role": "受事者",
+        "text": "接口",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "role": "自对象",
+        "text": "二层模式",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "role": "到对象",
+        "text": "三层模式",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "切换",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "通用行为",
+      "切换"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 配置Switch与用户连接的接口GE0/0/1为trunk类型接口，并将GE0/0/1加入VLAN10、VLAN20、VLAN30。",
+    "event_list": [],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "功能配置",
+      "连接"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "GE0/0/1加入VLAN10、VLAN20、VLAN30",
+      "start": 39,
+      "end": 68
+    }
+  },
+  {
+    "text": "创建/删除Eth-Trunk接口，或者进入Eth-Trunk接口视图",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 16,
+        "role": "对象",
+        "text": "Eth-Trunk接口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "创建/删除",
+    "start": 0,
+    "end": 5,
+    "event_class": [
+      "操作命令",
+      "创建/删除"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "进入Eth-Trunk接口视图",
+      "start": 19,
+      "end": 34
+    }
+  },
+  {
+    "text": "系统当前的LSP条数过多，导致动态标签使用率已达到100%。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 2,
+        "role": "执行者",
+        "text": "系统",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 15,
+        "end": 29,
+        "role": "对象",
+        "text": "动态标签使用率已达到100%",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "导致",
+    "start": 13,
+    "end": 15,
+    "event_class": [
+      "系统事件",
+      "导致"
+    ],
+    "event_pre": {
+      "text": "SP条数过多",
+      "start": 6,
+      "end": 12
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在VLAN10中的User1主机上配置IP地址为10.10.10.3/24，缺省网关为VLANIF10接口的IP地址10.10.10.2/24。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 16,
+        "role": "执行者",
+        "text": "VLAN10中的User1主机",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 19,
+        "end": 37,
+        "role": "对象",
+        "text": "IP地址为10.10.10.3/24",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 38,
+        "end": 71,
+        "role": "对象",
+        "text": "缺省网关为VLANIF10接口的IP地址10.10.10.2/24",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 17,
+    "end": 19,
+    "event_class": [
+      "系统配置",
+      "地址配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在接口视图下执行命令 **display this** 可以看到接口GE0/0/3已经配置为信任接口。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 6,
+        "role": "条件",
+        "text": "接口视图下",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 0,
+        "end": 0,
+        "role": "对象",
+        "text": "",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "操作命令",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "接口GE0/0/3已经配置为信任接口",
+      "start": 32,
+      "end": 50
+    }
+  },
+  {
+    "text": "指定显示地址池中过期的，处于空闲状态IP地址信息。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 24,
+        "role": "对象",
+        "text": "显示地址池中过期的，处于空闲状态IP地址信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "系统配置",
+      "地址配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 配置SwitchA，将接口GE0/0/1、GE0/0/2和GE0/0/3加入VLAN100（管理VLAN）。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 12,
+        "role": "执行者",
+        "text": "SwitchA",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 13,
+        "end": 56,
+        "role": "对象",
+        "text": "将接口GE0/0/1、GE0/0/2和GE0/0/3加入VLAN100（管理VLAN）",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "系统配置",
+      "接口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 创建认证域\"abc11\"，并在认证域其上绑定AAA方案\"abc\"与RADIUS服务器模板\"rd1\"。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 15,
+        "role": "对象",
+        "text": "认证域\"abc11\"",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "创建",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "操作命令",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 在CSG上创建路由策略，并向对等体应用路由策略。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 7,
+        "role": "执行者",
+        "text": "CSG",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 26,
+        "role": "对象",
+        "text": "路由策略，并向对等体应用路由策略",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "创建",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "操作命令",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "根据指定的 mode 设置下次启动基础包",
+    "event_list": [
+      {
+        "start": 13,
+        "end": 20,
+        "role": "对象",
+        "text": "下次启动基础包",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "设置",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "操作命令",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "根据指定的 mode",
+      "start": 0,
+      "end": 10
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 配置AC上行接口GE0/0/2加入VLAN101（业务VLAN）。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 35,
+        "role": "对象",
+        "text": "AC上行接口GE0/0/2加入VLAN101（业务VLAN）",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "系统配置",
+      "接口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在CE1和CE2上配置以太网CFM的基本功能。指定以太网CFM协议为Standard2007标准版本，MD的名称是md3，MA的名称是ma3，并且配置MA与VLAN绑定。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 8,
+        "role": "执行者",
+        "text": "CE1和CE2",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 84,
+        "role": "对象",
+        "text": "以太网CFM的基本功能。指定以太网CFM协议为Standard2007标准版本，MD的名称是md3，MA的名称是ma3，并且配置MA与VLAN绑定",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 9,
+    "end": 11,
+    "event_class": [
+      "配置事件",
+      "功能配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在VPN实例绑定的接口所在网段运行RIP",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 15,
+        "role": "执行者",
+        "text": "VPN实例绑定的接口所在网段",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 17,
+        "end": 20,
+        "role": "对象",
+        "text": "RIP",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "运行",
+    "start": 15,
+    "end": 17,
+    "event_class": [
+      "操作命令",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "系统发送RA报文的跳数限制值，既依赖于系统视图下执行",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 2,
+        "role": "执行者",
+        "text": "系统",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 4,
+        "end": 14,
+        "role": "对象",
+        "text": "RA报文的跳数限制值",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "发送",
+    "start": 2,
+    "end": 4,
+    "event_class": [
+      "消息传递",
+      "发送"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "客户端发送的DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突，导致丢弃客户端报文数量。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 3,
+        "role": "执行者",
+        "text": "客户端",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 6,
+        "end": 35,
+        "role": "对象",
+        "text": "DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "发送",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "消息传递",
+      "发送"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "导致丢弃客户端报文数量",
+      "start": 36,
+      "end": 47
+    }
+  },
+  {
+    "text": "蓝牙报文上报经过AC时，AC发送报文到定位服务器的源IPv4地址。",
+    "event_list": [
+      {
+        "start": 8,
+        "end": 10,
+        "role": "执行者",
+        "text": "AC",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 16,
+        "end": 32,
+        "role": "对象",
+        "text": "报文到定位服务器的源IPv4地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "发送",
+    "start": 14,
+    "end": 16,
+    "event_class": [
+      "消息传递",
+      "发送"
+    ],
+    "event_pre": {
+      "text": "蓝牙报文上报经过AC时",
+      "start": 0,
+      "end": 11
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 在FWB上配置IP-Link，探测各ISP提供的链路状态是否正常。",
+    "event_list": [
+      {
+        "start": 4,
+        "end": 7,
+        "role": "执行者",
+        "text": "FWB",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "role": "对象",
+        "text": "IP-Link",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 8,
+    "end": 10,
+    "event_class": [
+      "配置事件",
+      "地址配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "探测各ISP提供的链路状态是否正常",
+      "start": 18,
+      "end": 35
+    }
+  },
+  {
+    "text": "部署VLAN特性，用于区分不同类型的企业用户。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 8,
+        "role": "对象",
+        "text": "VLAN特性",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "部署",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "部署"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "用于区分不同类型的企业用户",
+      "start": 9,
+      "end": 22
+    }
+  },
+  {
+    "text": "\\# 从IP地址为10.137.12.10的tftp服务器上获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项。",
+    "event_list": [
+      {
+        "start": 26,
+        "end": 29,
+        "role": "执行者",
+        "text": "服务器",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 30,
+        "end": 69,
+        "role": "对象",
+        "text": "获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "获取并恢复",
+    "start": 30,
+    "end": 35,
+    "event_class": [
+      "消息传递",
+      "接收"
+    ],
+    "event_pre": {
+      "text": "从IP地址为10.137.12.10",
+      "start": 3,
+      "end": 21
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "选择Speed模式，表示业务接口指示灯正在指示接口速率状态。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 9,
+        "role": "对象",
+        "text": "Speed模式",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "表示业务接口指示灯正在指示接口速率状态",
+      "start": 10,
+      "end": 29
+    }
+  },
+  {
+    "text": "\\# 分别创建AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS。",
+    "event_list": [
+      {
+        "start": 7,
+        "end": 39,
+        "role": "对象",
+        "text": "AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "创建",
+    "start": 5,
+    "end": 7,
+    "event_class": [
+      "操作命令",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 配置SwitchB端口GigabitEthernet0/0/2为边缘端口。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 39,
+        "role": "对象",
+        "text": "SwitchB端口GigabitEthernet0/0/2为边缘端口",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "配置事件",
+      "端口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定非信任接口丢弃DHCP Server回应报文数达到阈值时而产生告警。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 29,
+        "role": "对象",
+        "text": "非信任接口丢弃DHCP Server回应报文数达到阈值",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "接口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "产生告警",
+      "start": 31,
+      "end": 35
+    }
+  },
+  {
+    "text": "输入新建Telnet或者STelnet登录用户名。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 24,
+        "role": "对象",
+        "text": "新建Telnet或者STelnet登录用户名",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "输入",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "输入"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定以 _vlan-id3_ 为起始VLAN、 _step-number_ 为步长、递减的方式将端口组下成员接口与VLAN一一绑定。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 0,
+        "role": "对象",
+        "text": "",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "端口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "选择\"星期形式\"或\"日期形式\"进行配置夏令时结束时间。",
+    "event_list": [
+      {
+        "start": 19,
+        "end": 26,
+        "role": "对象",
+        "text": "夏令时结束时间",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 17,
+    "end": 19,
+    "event_class": [
+      "配置事件",
+      "系统配置"
+    ],
+    "event_pre": {
+      "text": "选择\"星期形式\"或\"日期形式\"",
+      "start": 0,
+      "end": 15
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定客户端到服务器端的首选HMAC算法。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 19,
+        "role": "对象",
+        "text": "客户端到服务器端的首选HMAC算法",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "系统配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在LSRA或LSRB上执行 **display mpls rsvp-te interface** 命令，可查看RSVP认证的相关配置信息。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 10,
+        "role": "执行者",
+        "text": "LSRA或LSRB",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 0,
+        "end": 0,
+        "role": "对象",
+        "text": "",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 11,
+    "end": 13,
+    "event_class": [
+      "操作命令",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "可查看RSVP认证的相关配置信息",
+      "start": 52,
+      "end": 68
+    }
+  },
+  {
+    "text": "执行 **display snmp-agent trap feature-name vbst all** 命令可以用来查看VBST模块所有告警的开启关闭状态和海量标志。",
+    "event_list": [
+      {
+        "start": 0,
+        "end": 0,
+        "role": "对象",
+        "text": "",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "可以用来查看VBST模块所有告警的开启关闭状态和海量标志",
+      "start": 55,
+      "end": 83
+    }
+  },
+  {
+    "text": "在设备上执行 **display pim ipv6 routing-table** _ipv6-group-address_ 命令，查看PIM（IPv6）路由表中是否存在到所需组播组G的（*,G）表项。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 3,
+        "role": "执行者",
+        "text": "设备",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 0,
+        "end": 0,
+        "role": "对象",
+        "text": "",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "执行",
+    "start": 4,
+    "end": 6,
+    "event_class": [
+      "操作命令",
+      "执行"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "查看PIM（IPv6）路由表中是否存在到所需组播组G的（*,G）表项",
+      "start": 66,
+      "end": 100
+    }
+  },
+  {
+    "text": "选择Speed模式，表示业务接口指示灯正在指示接口速率状态。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 9,
+        "role": "对象",
+        "text": "Speed模式",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "选择",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "选择"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "表示业务接口指示灯正在指示接口速率状态",
+      "start": 10,
+      "end": 29
+    }
+  },
+  {
+    "text": "\\# 设置组播模板profile1引用索引为1到10的组播组列表。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 32,
+        "role": "对象",
+        "text": "组播模板profile1引用索引为1到10的组播组列表",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "设置",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "操作命令",
+      "设置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "指定Tunnel源接口的接口类型和接口编号。一般常使用的接口类型包括：VLANIF接口和Loopback接口。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 21,
+        "role": "对象",
+        "text": "Tunnel源接口的接口类型和接口编号",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "接口配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "一般常使用的接口类型包括：VLANIF接口和Loopback接口",
+      "start": 22,
+      "end": 54
+    }
+  },
+  {
+    "text": "指定IPv4聚合流统计信息输出报文的源IPv4地址。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 25,
+        "role": "对象",
+        "text": "IPv4聚合流统计信息输出报文的源IPv4地址",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "指定",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "地址配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过，当ARP报文超过该限速值时，60秒内持续丢弃该接口下的所有ARP报文",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 30,
+        "role": "对象",
+        "text": "接口GE0/0/1在1秒钟内最多允许50个ARP报文通过",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "接口配置"
+    ],
+    "event_pre": {
+      "text": "当ARP报文超过该限速值时，60秒内持续丢弃该接口下的所有ARP报文",
+      "start": 31,
+      "end": 65
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "显示指定接口透明传输用户自定义协议的统计信息。 _protocol-name_ ：指定用户自定义的协议名称。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 22,
+        "role": "对象",
+        "text": "指定接口透明传输用户自定义协议的统计信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "显示",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "系统事件",
+      "激活"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "\\# 查看接口GE0/0/1下的IP报文检查功能的配置信息。",
+    "event_list": [
+      {
+        "start": 5,
+        "end": 29,
+        "role": "对象",
+        "text": "接口GE0/0/1下的IP报文检查功能的配置信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 3,
+    "end": 5,
+    "event_class": [
+      "操作命令",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置禁止IS-IS路由协议发布VRRP备份组的虚地址生成的路由。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 31,
+        "role": "对象",
+        "text": "禁止IS-IS路由协议发布VRRP备份组的虚地址生成的路由",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "系统配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "配置IPSec安全提议和安全联盟。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 16,
+        "role": "对象",
+        "text": "IPSec安全提议和安全联盟",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "系统配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "安装交流端子防脱扣预留的插孔，交流端子防脱扣不随设备发货。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 14,
+        "role": "对象",
+        "text": "交流端子防脱扣预留的插孔",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "安装",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "创建"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "交流端子防脱扣不随设备发货",
+      "start": 15,
+      "end": 28
+    }
+  },
+  {
+    "text": "设置radio 0和radio 2频段。缺省值为无效值。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 19,
+        "role": "对象",
+        "text": "radio 0和radio 2频段",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "设置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "设置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "缺省值为无效值",
+      "start": 20,
+      "end": 27
+    }
+  },
+  {
+    "text": "使用ACL 2000对BGP接收的路由信息进行过滤。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 10,
+        "role": "执行者",
+        "text": "ACL 2000",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 11,
+        "end": 21,
+        "role": "对象",
+        "text": "BGP接收的路由信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "过滤",
+    "start": 23,
+    "end": 25,
+    "event_class": [
+      "操作命令",
+      "过滤"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "显示无效Register报文的统计信息。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 19,
+        "role": "对象",
+        "text": "无效Register报文的统计信息",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "显示",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "操作命令",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在ASBR上配置路由策略控制VPNv6路由收发",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 5,
+        "role": "执行者",
+        "text": "ASBR",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 8,
+        "end": 23,
+        "role": "",
+        "text": "路由策略控制VPNv6路由收发",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 6,
+    "end": 8,
+    "event_class": [
+      "配置事件",
+      "系统配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  },
+  {
+    "text": "在Switch_1上查看VLANIF10接口的ARP表项，可以看到VLANIF10接口的IP地址对应的MAC地址。",
+    "event_list": [
+      {
+        "start": 1,
+        "end": 9,
+        "role": "执行者",
+        "text": "Switch_1",
+        "alias": [
+          ""
+        ]
+      },
+      {
+        "start": 12,
+        "end": 28,
+        "role": "对象",
+        "text": "VLANIF10接口的ARP表项",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "查看",
+    "start": 10,
+    "end": 12,
+    "event_class": [
+      "操作命令",
+      "查看"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "可以看到VLANIF10接口的IP地址对应的MAC地址",
+      "start": 29,
+      "end": 56
+    }
+  },
+  {
+    "text": "配置打开内置Portal认证网页时所需的SSL策略。",
+    "event_list": [
+      {
+        "start": 2,
+        "end": 25,
+        "role": "对象",
+        "text": "打开内置Portal认证网页时所需的SSL策略",
+        "alias": [
+          ""
+        ]
+      }
+    ],
+    "trigger": "配置",
+    "start": 0,
+    "end": 2,
+    "event_class": [
+      "配置事件",
+      "功能配置"
+    ],
+    "event_pre": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    },
+    "event_post": {
+      "text": "",
+      "start": 0,
+      "end": 0
+    }
+  }
+]
