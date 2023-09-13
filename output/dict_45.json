@@ -1,0 +1,44 @@
+[
+    {
+        "text": "\\# 配置SwitchB端口GigabitEthernet0/0/2为边缘端口。",
+        "id": "181",
+        "event_list": [
+            {
+                "event_type": "配置事件-端口配置",
+                "trigger": "配置",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 39,
+                        "role": "对象",
+                        "argument": "SwitchB端口GigabitEthernet0/0/2为边缘端口",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "指定以 _vlan-id3_ 为起始VLAN、 _step-number_ 为步长、递减的方式将端口组下成员接口与VLAN一一绑定。",
+        "id": "184",
+        "event_list": [
+            {
+                "event_type": "配置事件-端口配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    }
+]

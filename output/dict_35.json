@@ -1,0 +1,58 @@
+[
+    {
+        "text": "在VLAN10中的User1主机上配置IP地址为10.10.10.3/24，缺省网关为VLANIF10接口的IP地址10.10.10.2/24。",
+        "id": "163",
+        "event_list": [
+            {
+                "event_type": "系统配置-地址配置",
+                "trigger": "配置",
+                "trigger_start_index": 17,
+                "arguments": [
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 16,
+                        "role": "执行者",
+                        "argument": "VLAN10中的User1主机",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 19,
+                        "argument_end_index": 37,
+                        "role": "对象",
+                        "argument": "IP地址为10.10.10.3/24",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 38,
+                        "argument_end_index": 71,
+                        "role": "对象",
+                        "argument": "缺省网关为VLANIF10接口的IP地址10.10.10.2/24",
+                        "alias": []
+                    }
+                ],
+                "class": "系统配置"
+            }
+        ]
+    },
+    {
+        "text": "指定显示地址池中过期的，处于空闲状态IP地址信息。",
+        "id": "165",
+        "event_list": [
+            {
+                "event_type": "系统配置-地址配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 24,
+                        "role": "对象",
+                        "argument": "显示地址池中过期的，处于空闲状态IP地址信息",
+                        "alias": []
+                    }
+                ],
+                "class": "系统配置"
+            }
+        ]
+    }
+]

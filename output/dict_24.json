@@ -1,0 +1,93 @@
+[
+    {
+        "text": "* 配置流量监管实现接口限速后，清除指定接口上通过和丢弃的报文统计信息。",
+        "id": "74",
+        "event_list": [
+            {
+                "event_type": "通用行为-删除",
+                "trigger": "配置流量监管实现接口限速后",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 18,
+                        "argument_end_index": 22,
+                        "role": "受事者",
+                        "argument": "指定接口",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 23,
+                        "argument_end_index": 35,
+                        "role": "内容",
+                        "argument": "通过和丢弃的报文统计信息",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* 删除Portal认证服务器。",
+        "id": "107",
+        "event_list": [
+            {
+                "event_type": "通用行为-删除",
+                "trigger": "删除",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 15,
+                        "role": "内容",
+                        "argument": "Portal认证服务器",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* 删除对预认证状态用户应用的业务方案",
+        "id": "108",
+        "event_list": [
+            {
+                "event_type": "通用行为-删除",
+                "trigger": "删除",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 19,
+                        "role": "内容",
+                        "argument": "对预认证状态用户应用的业务方案",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "清除LACP模式Eth-Trunk接口的LACP报文统计信息",
+        "id": "133",
+        "event_list": [
+            {
+                "event_type": "通用行为-删除",
+                "trigger": "清除",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 30,
+                        "role": "内容",
+                        "argument": "LACP模式Eth-Trunk接口的LACP报文统计信息",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "text": "系统发送RA报文的跳数限制值，既依赖于系统视图下执行",
+        "id": "173",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 2,
+                        "role": "执行者",
+                        "argument": "系统",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 14,
+                        "role": "对象",
+                        "argument": "RA报文的跳数限制值",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "客户端发送的DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突，导致丢弃客户端报文数量。",
+        "id": "174",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 3,
+                        "role": "执行者",
+                        "argument": "客户端",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 6,
+                        "argument_end_index": 35,
+                        "role": "对象",
+                        "argument": "DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "蓝牙报文上报经过AC时，AC发送报文到定位服务器的源IPv4地址。",
+        "id": "175",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 14,
+                "arguments": [
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 10,
+                        "role": "执行者",
+                        "argument": "AC",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 16,
+                        "argument_end_index": 32,
+                        "role": "对象",
+                        "argument": "报文到定位服务器的源IPv4地址",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    }
+]

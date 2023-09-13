@@ -1,0 +1,30 @@
+[
+    {
+        "text": "使用ACL 2000对BGP接收的路由信息进行过滤。",
+        "id": "201",
+        "event_list": [
+            {
+                "event_type": "操作命令-过滤",
+                "trigger": "过滤",
+                "trigger_start_index": 23,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "执行者",
+                        "argument": "ACL 2000",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 21,
+                        "role": "对象",
+                        "argument": "BGP接收的路由信息",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    }
+]

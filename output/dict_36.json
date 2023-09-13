@@ -1,0 +1,135 @@
+[
+    {
+        "text": "在接口视图下执行命令 **display this** 可以看到接口GE0/0/3已经配置为信任接口。",
+        "id": "164",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "执行",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 6,
+                        "role": "条件",
+                        "argument": "接口视图下",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "在VPN实例绑定的接口所在网段运行RIP",
+        "id": "172",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "运行",
+                "trigger_start_index": 15,
+                "arguments": [
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 15,
+                        "role": "执行者",
+                        "argument": "VPN实例绑定的接口所在网段",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 17,
+                        "argument_end_index": 20,
+                        "role": "对象",
+                        "argument": "RIP",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "在LSRA或LSRB上执行 **display mpls rsvp-te interface** 命令，可查看RSVP认证的相关配置信息。",
+        "id": "187",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "执行",
+                "trigger_start_index": 11,
+                "arguments": [
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 10,
+                        "role": "执行者",
+                        "argument": "LSRA或LSRB",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "执行 **display snmp-agent trap feature-name vbst all** 命令可以用来查看VBST模块所有告警的开启关闭状态和海量标志。",
+        "id": "188",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "执行",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "在设备上执行 **display pim ipv6 routing-table** _ipv6-group-address_ 命令，查看PIM（IPv6）路由表中是否存在到所需组播组G的（*,G）表项。",
+        "id": "189",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "执行",
+                "trigger_start_index": 4,
+                "arguments": [
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 3,
+                        "role": "执行者",
+                        "argument": "设备",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    }
+]

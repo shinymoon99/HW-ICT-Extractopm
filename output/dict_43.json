@@ -1,0 +1,30 @@
+[
+    {
+        "text": "\\# 从IP地址为10.137.12.10的tftp服务器上获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项。",
+        "id": "178",
+        "event_list": [
+            {
+                "event_type": "消息传递-接收",
+                "trigger": "获取并恢复",
+                "trigger_start_index": 30,
+                "arguments": [
+                    {
+                        "argument_start_index": 26,
+                        "argument_end_index": 29,
+                        "role": "执行者",
+                        "argument": "服务器",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 30,
+                        "argument_end_index": 69,
+                        "role": "对象",
+                        "argument": "获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    }
+]

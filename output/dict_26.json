@@ -1,0 +1,23 @@
+[
+    {
+        "text": "2. （可选）退出路由环路告警状态并清除环路检测告警。",
+        "id": "81",
+        "event_list": [
+            {
+                "event_type": "通用行为-退出",
+                "trigger": "退出",
+                "trigger_start_index": 7,
+                "arguments": [
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 17,
+                        "role": "内容",
+                        "argument": "路由环路告警状态",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

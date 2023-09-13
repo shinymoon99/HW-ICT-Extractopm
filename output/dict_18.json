@@ -1,0 +1,254 @@
+[
+    {
+        "text": "* 使能单个接口的Loopback Detection功能",
+        "id": "37",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 4,
+                        "role": "受事者",
+                        "argument": "使能",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 29,
+                        "role": "内容",
+                        "argument": "Loopback Detection功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* 使能RIP进程在指定网段上发送和接收路由。",
+        "id": "53",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 9,
+                        "role": "受事者",
+                        "argument": "RIP进程",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 22,
+                        "role": "内容",
+                        "argument": "在指定网段上发送和接收路由",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "8. （可选）使能二层协议透明传输功能的接口丢弃协议报文的阈值。",
+        "id": "57",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 7,
+                "arguments": [
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 19,
+                        "role": "受事者",
+                        "argument": "二层协议透明传输功能",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 20,
+                        "argument_end_index": 31,
+                        "role": "内容",
+                        "argument": "接口丢弃协议报文的阈值",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "4. 使能接口的IPv6功能。",
+        "id": "62",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 7,
+                        "role": "受事者",
+                        "argument": "接口",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "IPv6功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "端口安全功能使能后，接口上会出现黄色盾牌形标识。",
+        "id": "67",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 6,
+                        "role": "内容",
+                        "argument": "端口安全功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "4. 使能ARP网关代答功能。",
+        "id": "79",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "ARP网关代答功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 执行命令[ **ipv6**](ipv6.html)，使能IPv6功能。",
+        "id": "88",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 30,
+                "arguments": [
+                    {
+                        "argument_start_index": 32,
+                        "argument_end_index": 38,
+                        "role": "内容",
+                        "argument": "IPv6功能",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 29,
+                        "role": "方式",
+                        "argument": "执行命令[ **ipv6**](ipv6.html)",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "7. 使能接口的二层协议透明传输功能。",
+        "id": "93",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 18,
+                        "role": "内容",
+                        "argument": "接口的二层协议透明传输功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* （可选）使能OLC告警功能",
+        "id": "122",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 15,
+                        "role": "内容",
+                        "argument": "OLC告警功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* 使能VPN实例的PIM-SM",
+        "id": "128",
+        "event_list": [
+            {
+                "event_type": "通用行为-使能",
+                "trigger": "使能",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 9,
+                        "role": "受事者",
+                        "argument": "VPN实例",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "PIM-SM",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "text": "选择Speed模式，表示业务接口指示灯正在指示接口速率状态。",
+        "id": "179",
+        "event_list": [
+            {
+                "event_type": "操作命令-选择",
+                "trigger": "选择",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "Speed模式",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "选择Speed模式，表示业务接口指示灯正在指示接口速率状态。",
+        "id": "190",
+        "event_list": [
+            {
+                "event_type": "操作命令-选择",
+                "trigger": "选择",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "Speed模式",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    }
+]

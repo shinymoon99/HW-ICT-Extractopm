@@ -1,0 +1,40 @@
+{"event_type": "覆盖", "role_list": [{"role": "受事者"}, {"role": "方式"}, {"role": "施事者"}], "class": "覆盖"}
+{"event_type": "配置", "role_list": [{"role":"执行者"},{"role": "范围"}, {"role": "受事者"}, {"role": "地点"}, {"role": "方式"}, {"role": "内容"}, {"role": "到对象"}], "class": "配置"}
+{"event_type": "插入", "role_list": [{"role": "内容"}, {"role": "到对象"}, {"role": "方式"}, {"role": "受事者"}], "class": "插入"}
+{"event_type": "修改", "role_list": [{"role": "到对象"}, {"role": "内容"}, {"role": "受事者"}], "class": "修改"}
+{"event_type": "查看", "role_list": [{"role": "执行者"}, {"role": "方式"}, {"role": "内容"}, {"role": "对象"}], "class": "查看"}
+{"event_type": "连接", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "连接"}
+{"event_type": "创建", "role_list": [{"role": "执行者"}, {"role": "方式"}, {"role": "受事者"}, {"role": "对象"}], "class": "创建"}
+{"event_type": "点击", "role_list": [{"role": ""}, {"role": "地点"}, {"role": "受事者"}, {"role": "按钮/菜单论元角色"}], "class": "点击"}
+{"event_type": "选择", "role_list": [{"role": ""}, {"role": "对象"}, {"role": "受事者"}, {"role": "地点"}, {"role": "方式"}, {"role": "内容"}, {"role": "按钮/菜单论元角色"}], "class": "选择"}
+{"event_type": "完成", "role_list": [{"role": "受事者"}], "class": "完成"}
+{"event_type": "控制", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "控制"}
+{"event_type": "执行", "role_list": [{"role": "执行者"}, {"role": "对象"}, {"role": "受事者"}, {"role": "条件"}], "class": "执行"}
+{"event_type": "确认", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "确认"}
+{"event_type": "关闭", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "关闭"}
+{"event_type": "验证", "role_list": [{"role": "内容"}, {"role": "方式"}], "class": "验证"}
+{"event_type": "事件", "role_list": [{"role": "方式"}, {"role": "受事者"}, {"role": "到对象"}], "class": "事件"}
+{"event_type": "输入", "role_list": [{"role": "对象"}, {"role": "到对象"}, {"role": "内容"}, {"role": "施事者"}], "class": "输入"}
+{"event_type": "检查", "role_list": [{"role": "内容"}, {"role": "方式"}, {"role": "受事者"}], "class": "检查"}
+{"event_type": "使能", "role_list": [{"role": "内容"}, {"role": "方式"}, {"role": "受事者"}], "class": "使能"}
+{"event_type": "复制", "role_list": [{"role": "到对象"}, {"role": "内容"}, {"role": "受事者"}], "class": "复制"}
+{"event_type": "指定", "role_list": [{"role": "范围"}, {"role": "目的或原因"}, {"role": "受事者"}, {"role": "内容"}, {"role": "到对象"}], "class": "指定"}
+{"event_type": "卸载", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "卸载"}
+{"event_type": "切换", "role_list": [{"role": "自对象"}, {"role": "到对象"}, {"role": "内容"}, {"role": "受事者"}], "class": "切换"}
+{"event_type": "穿入", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "穿入"}
+{"event_type": "删除", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "删除"}
+{"event_type": "安装", "role_list": [{"role": "受事者"}, {"role": "到对象"}], "class": "安装"}
+{"event_type": "退出", "role_list": [{"role": "内容"}], "class": "退出"}
+{"event_type": "开启", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "开启"}
+{"event_type": "拆下", "role_list": [{"role": "方式"}, {"role": "自对象"}, {"role": "内容"}, {"role": "受事者"}], "class": "拆下"}
+{"event_type": "应用", "role_list": [{"role": "内容"}, {"role": "受事者"}], "class": "应用"}
+{"event_type": "测试", "role_list": [{"role": "内容"}], "class": "测试"}
+{"event_type": "进入", "role_list": [{"role": "到对象"}], "class": "进入"}
+{"event_type": "创建/删除", "role_list": [{"role": "对象"}], "class": "创建/删除"}
+{"event_type": "导致", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "导致"}
+{"event_type": "发送", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "发送"}
+{"event_type": "部署", "role_list": [{"role": "对象"}], "class": "部署"}
+{"event_type": "接收", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "接收"}
+{"event_type": "设置", "role_list": [{"role": "对象"}], "class": "设置"}
+{"event_type": "激活", "role_list": [{"role": "对象"}], "class": "激活"}
+{"event_type": "过滤", "role_list": [{"role": "执行者"}, {"role": "对象"}], "class": "过滤"}

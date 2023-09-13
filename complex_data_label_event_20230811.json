@@ -1259,7 +1259,7 @@
         ]
       }
     ],
-    "trigger": "配置",
+    "trigger":"配置",
     "start": 2,
     "end": 4,
     "event_class": [

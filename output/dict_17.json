@@ -1,0 +1,128 @@
+[
+    {
+        "text": "6. 检查新电源模块工作是否正常。",
+        "id": "34",
+        "event_list": [
+            {
+                "event_type": "通用行为-检查",
+                "trigger": "检查",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 10,
+                        "role": "受事者",
+                        "argument": "新电源模块",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "工作是否正常",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "1. 通过巡视检查设备电源线是否正确地连接到设备的指定位置上，且连接牢固。",
+        "id": "42",
+        "event_list": [
+            {
+                "event_type": "通用行为-检查",
+                "trigger": "检查",
+                "trigger_start_index": 7,
+                "arguments": [
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 7,
+                        "role": "方式",
+                        "argument": "通过巡视",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 14,
+                        "role": "受事者",
+                        "argument": "设备电源线",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 14,
+                        "argument_end_index": 36,
+                        "role": "内容",
+                        "argument": "是否正确地连接到设备的指定位置上，且连接牢固",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 检查电源线的连接是否正确。",
+        "id": "102",
+        "event_list": [
+            {
+                "event_type": "通用行为-检查",
+                "trigger": "检查",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 15,
+                        "role": "内容",
+                        "argument": "电源线的连接是否正确",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "4. 检查电源线缆的连接是否正确。",
+        "id": "112",
+        "event_list": [
+            {
+                "event_type": "通用行为-检查",
+                "trigger": "检查",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "电源线缆的连接是否正确",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 检查线缆布放是否整齐有序。",
+        "id": "149",
+        "event_list": [
+            {
+                "event_type": "通用行为-检查",
+                "trigger": "检查",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 15,
+                        "role": "内容",
+                        "argument": "线缆布放是否整齐有序",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

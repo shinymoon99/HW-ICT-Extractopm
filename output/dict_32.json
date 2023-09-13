@@ -1,0 +1,15 @@
+[
+    {
+        "text": "\\# 配置Switch与用户连接的接口GE0/0/1为trunk类型接口，并将GE0/0/1加入VLAN10、VLAN20、VLAN30。",
+        "id": "160",
+        "event_list": [
+            {
+                "event_type": "功能配置-连接",
+                "trigger": "配置",
+                "trigger_start_index": 3,
+                "arguments": [],
+                "class": "功能配置"
+            }
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "text": "10. 按照记录的信息插入之前拆下的模块和线缆。",
+        "id": "2",
+        "event_list": [
+            {
+                "event_type": "通用行为-插入",
+                "trigger": "插入",
+                "trigger_start_index": 11,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 11,
+                        "role": "方式",
+                        "argument": "按照记录的信息",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 13,
+                        "argument_end_index": 23,
+                        "role": "内容",
+                        "argument": "之前拆下的模块和线缆",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "5. 将凤凰端子插入到交换机或电源模块的交流输入端口，并拧紧凤凰端子两边的固定螺钉。",
+        "id": "25",
+        "event_list": [
+            {
+                "event_type": "通用行为-插入",
+                "trigger": "插入",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 8,
+                        "role": "受事者",
+                        "argument": "凤凰端子",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 8,
+                        "role": "到对象",
+                        "argument": "凤凰端子",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "4. 将Sub-VLAN加入Super-VLAN。",
+        "id": "140",
+        "event_list": [
+            {
+                "event_type": "通用行为-插入",
+                "trigger": "加入",
+                "trigger_start_index": 12,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 12,
+                        "role": "受事者",
+                        "argument": "Sub-VLAN",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 14,
+                        "argument_end_index": 24,
+                        "role": "到对象",
+                        "argument": "Super-VLAN",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

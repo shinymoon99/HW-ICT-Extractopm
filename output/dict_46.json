@@ -1,0 +1,65 @@
+[
+    {
+        "text": "指定非信任接口丢弃DHCP Server回应报文数达到阈值时而产生告警。",
+        "id": "182",
+        "event_list": [
+            {
+                "event_type": "配置事件-接口配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 29,
+                        "role": "对象",
+                        "argument": "非信任接口丢弃DHCP Server回应报文数达到阈值",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "指定Tunnel源接口的接口类型和接口编号。一般常使用的接口类型包括：VLANIF接口和Loopback接口。",
+        "id": "192",
+        "event_list": [
+            {
+                "event_type": "配置事件-接口配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 21,
+                        "role": "对象",
+                        "argument": "Tunnel源接口的接口类型和接口编号",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过，当ARP报文超过该限速值时，60秒内持续丢弃该接口下的所有ARP报文",
+        "id": "194",
+        "event_list": [
+            {
+                "event_type": "配置事件-接口配置",
+                "trigger": "配置",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 30,
+                        "role": "对象",
+                        "argument": "接口GE0/0/1在1秒钟内最多允许50个ARP报文通过",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "5. 将熔接了尾纤的主缆，连接到HDF架后方对应编号的接口。",
+        "id": "8",
+        "event_list": [
+            {
+                "event_type": "通用行为-连接",
+                "trigger": "连接",
+                "trigger_start_index": 13,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 12,
+                        "role": "受事者",
+                        "argument": "熔接了尾纤的主缆",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 16,
+                        "argument_end_index": 29,
+                        "role": "到对象",
+                        "argument": "HDF架后方对应编号的接口",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "5. 连接高速电缆到交换机接口。",
+        "id": "66",
+        "event_list": [
+            {
+                "event_type": "通用行为-连接",
+                "trigger": "连接",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 9,
+                        "role": "受事者",
+                        "argument": "高速电缆",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 15,
+                        "role": "到对象",
+                        "argument": "交换机接口",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

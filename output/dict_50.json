@@ -1,0 +1,23 @@
+[
+    {
+        "text": "显示指定接口透明传输用户自定义协议的统计信息。 _protocol-name_ ：指定用户自定义的协议名称。",
+        "id": "195",
+        "event_list": [
+            {
+                "event_type": "系统事件-激活",
+                "trigger": "显示",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 22,
+                        "role": "对象",
+                        "argument": "指定接口透明传输用户自定义协议的统计信息",
+                        "alias": []
+                    }
+                ],
+                "class": "系统事件"
+            }
+        ]
+    }
+]

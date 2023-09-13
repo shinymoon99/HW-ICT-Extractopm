@@ -1,0 +1,58 @@
+[
+    {
+        "text": "1. 确认与交换机相连的外部电源开关、交换机电源模块开关置于OFF状态。",
+        "id": "18",
+        "event_list": [
+            {
+                "event_type": "通用行为-确认",
+                "trigger": "确认",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 28,
+                        "role": "受事者",
+                        "argument": "与交换机相连的外部电源开关、交换机电源模块开关",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 28,
+                        "argument_end_index": 35,
+                        "role": "内容",
+                        "argument": "置于OFF状态",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "1. 确认License是否是“Ready”状态。",
+        "id": "41",
+        "event_list": [
+            {
+                "event_type": "通用行为-确认",
+                "trigger": "确认",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 12,
+                        "role": "受事者",
+                        "argument": "License",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 12,
+                        "argument_end_index": 24,
+                        "role": "内容",
+                        "argument": "是否是“Ready”状态",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

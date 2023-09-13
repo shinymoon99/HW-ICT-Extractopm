@@ -1,0 +1,30 @@
+[
+    {
+        "text": "系统当前的LSP条数过多，导致动态标签使用率已达到100%。",
+        "id": "162",
+        "event_list": [
+            {
+                "event_type": "系统事件-导致",
+                "trigger": "导致",
+                "trigger_start_index": 13,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 2,
+                        "role": "执行者",
+                        "argument": "系统",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 15,
+                        "argument_end_index": 29,
+                        "role": "对象",
+                        "argument": "动态标签使用率已达到100%",
+                        "alias": []
+                    }
+                ],
+                "class": "系统事件"
+            }
+        ]
+    }
+]

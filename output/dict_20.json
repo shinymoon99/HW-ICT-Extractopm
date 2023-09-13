@@ -1,0 +1,324 @@
+[
+    {
+        "text": "指定接口Join/Prune报文中Join信息的合法源地址范围，防止非法用户的加入。",
+        "id": "44",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 0,
+                        "argument_end_index": 2,
+                        "role": "受事者",
+                        "argument": "指定",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 24,
+                        "argument_end_index": 31,
+                        "role": "内容",
+                        "argument": "合法源地址范围",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 32,
+                        "argument_end_index": 41,
+                        "role": "目的或原因",
+                        "argument": "防止非法用户的加入",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定敏感信息加密使用的预共享密钥。",
+        "id": "72",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "敏感信息加密使用的预共享密钥",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定接口静态加入的组播组地址。",
+        "id": "73",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "接口静态加入的组播组地址",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定识别规则为全部匹配或部分匹配。",
+        "id": "76",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "识别规则为全部匹配或部分匹配",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 设置文件名为 **usb.ini** 。",
+        "id": "83",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "设置",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 8,
+                        "role": "受事者",
+                        "argument": "文件名",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 12,
+                        "argument_end_index": 19,
+                        "role": "到对象",
+                        "argument": "usb.ini",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定在URL中携带接入用户访问的原始URL地址。",
+        "id": "89",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 22,
+                        "role": "内容",
+                        "argument": "在URL中携带接入用户访问的原始URL地",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "必选，指定是否开启VLAN的MAC地址学习：",
+        "id": "95",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 21,
+                        "role": "内容",
+                        "argument": "是否开启VLAN的MAC地址学习",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定设备与控制器通信的源IP地址。",
+        "id": "105",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "设备与控制器通信的源IP地址",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定接口所在VLAN的编号，取值范围是1～4094。",
+        "id": "113",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 13,
+                        "role": "内容",
+                        "argument": "接口所在VLAN的编号",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 19,
+                        "argument_end_index": 25,
+                        "role": "范围",
+                        "argument": "1～4094",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定终端需要匹配的DHCP Option选项值。",
+        "id": "127",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 23,
+                        "role": "内容",
+                        "argument": "终端需要匹配的DHCP Option选项值",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定域名所对应的IPv6地址。",
+        "id": "131",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "域名所对应的IPv6地址",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定CAPWAP心跳检测时间间隔。",
+        "id": "147",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "CAPWAP心跳检测时间间隔",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定是否开启VLAN内的ARP代理：",
+        "id": "153",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 17,
+                        "role": "内容",
+                        "argument": "是否开启VLAN内的ARP代理",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "指定6G频段的带宽的调优信道集合。",
+        "id": "156",
+        "event_list": [
+            {
+                "event_type": "通用行为-指定",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 16,
+                        "role": "内容",
+                        "argument": "6G频段的带宽的调优信道集合",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

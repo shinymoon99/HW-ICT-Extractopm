@@ -1,0 +1,51 @@
+[
+    {
+        "text": "* 新建Portal认证服务器。",
+        "id": "9",
+        "event_list": [
+            {
+                "event_type": "通用行为-创建",
+                "trigger": "新建",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 15,
+                        "role": "受事者",
+                        "argument": "Portal认证服务器",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* 根据生成规则自动创建MIP。",
+        "id": "134",
+        "event_list": [
+            {
+                "event_type": "通用行为-创建",
+                "trigger": "创建",
+                "trigger_start_index": 10,
+                "arguments": [
+                    {
+                        "argument_start_index": 12,
+                        "argument_end_index": 15,
+                        "role": "受事者",
+                        "argument": "MIP",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "方式",
+                        "argument": "根据生成规则自动",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

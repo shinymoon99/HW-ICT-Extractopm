@@ -1,0 +1,58 @@
+[
+    {
+        "text": "9. 将新交换机安装到原位置，安装M6螺钉。",
+        "id": "78",
+        "event_list": [
+            {
+                "event_type": "通用行为-安装",
+                "trigger": "安装",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 8,
+                        "role": "受事者",
+                        "argument": "新交换机",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 14,
+                        "role": "到对象",
+                        "argument": "原位置",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "1. 将交换机和HDF架分别安装到机柜中，安装光电混合交换机和HDF架间距推荐为3U。",
+        "id": "96",
+        "event_list": [
+            {
+                "event_type": "通用行为-安装",
+                "trigger": "安装",
+                "trigger_start_index": 14,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 12,
+                        "role": "受事者",
+                        "argument": "交换机和HDF架",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 17,
+                        "argument_end_index": 19,
+                        "role": "到对象",
+                        "argument": "机柜",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

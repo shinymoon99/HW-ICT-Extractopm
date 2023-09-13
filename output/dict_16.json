@@ -1,0 +1,170 @@
+[
+    {
+        "text": "4. 用户输入用户名、密码后再次进入Web网管首页。",
+        "id": "31",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 5,
+                "arguments": [
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 5,
+                        "role": "施事者",
+                        "argument": "用户",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 7,
+                        "argument_end_index": 13,
+                        "role": "内容",
+                        "argument": "用户名、密码",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "3. 在“模板名称”处输入新建的模板名称。",
+        "id": "45",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 11,
+                "arguments": [
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 13,
+                        "role": "内容",
+                        "argument": "输入",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 13,
+                        "role": "到对象",
+                        "argument": "输入",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "3. 在“修改用户”对话框中输入新的“密码”、“确认密码”。",
+        "id": "56",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 14,
+                "arguments": [
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 14,
+                        "role": "到对象",
+                        "argument": "在“修改用户”对话框中",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 16,
+                        "argument_end_index": 29,
+                        "role": "内容",
+                        "argument": "新的“密码”、“确认密码”",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 输入需要查询的接口编号，如： **12** 。",
+        "id": "58",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "需要查询的接口编号",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "再次输入设备与Portal服务器信息交互的共享密钥。",
+        "id": "90",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 25,
+                        "role": "内容",
+                        "argument": "设备与Portal服务器信息交互的共享密钥",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "必选。输入新增的LoopBack接口的编号。",
+        "id": "109",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 21,
+                        "role": "内容",
+                        "argument": "新增的LoopBack接口的编号",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "输入新增的LoopBack的IP地址。如： **10.10.10.1** 。",
+        "id": "158",
+        "event_list": [
+            {
+                "event_type": "通用行为-输入",
+                "trigger": "输入",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 18,
+                        "role": "内容",
+                        "argument": "新增的LoopBack的IP地址",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

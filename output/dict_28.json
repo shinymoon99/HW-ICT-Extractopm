@@ -1,0 +1,163 @@
+[
+    {
+        "text": "5. 拔下光模块上的防尘塞和光纤连接器上的防尘帽。",
+        "id": "92",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "拔下",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "argument_start_index": 5,
+                        "argument_end_index": 24,
+                        "role": "内容",
+                        "argument": "光模块上的防尘塞和光纤连接器上的防尘帽",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "6. 将SIM卡从SIM卡槽内取出。",
+        "id": "94",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "取出",
+                "trigger_start_index": 15,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 8,
+                        "role": "受事者",
+                        "argument": "SIM卡",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 14,
+                        "role": "自对象",
+                        "argument": "SIM卡槽",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "2. 用十字螺丝刀拆下直流接线端子处的2个螺钉。",
+        "id": "115",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "拆下",
+                "trigger_start_index": 9,
+                "arguments": [
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 9,
+                        "role": "方式",
+                        "argument": "用十字螺丝刀",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 23,
+                        "role": "内容",
+                        "argument": "直流接线端子处的2个螺钉",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "4. 从交换机中拔出电源模块。",
+        "id": "116",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "拔出",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 7,
+                        "role": "自对象",
+                        "argument": "交换机",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 14,
+                        "role": "受事者",
+                        "argument": "电源模块",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "1. 用十字螺丝刀逆时针方向转动，拧开电源模块上的松不脱螺钉。",
+        "id": "132",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "拧开",
+                "trigger_start_index": 17,
+                "arguments": [
+                    {
+                        "argument_start_index": 19,
+                        "argument_end_index": 30,
+                        "role": "受事者",
+                        "argument": "电源模块上的松不脱螺钉",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 3,
+                        "argument_end_index": 16,
+                        "role": "方式",
+                        "argument": "用十字螺丝刀逆时针方向转动",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "1. 用十字螺丝刀拆下直流接线端子上的保护盖。",
+        "id": "152",
+        "event_list": [
+            {
+                "event_type": "通用行为-拆下",
+                "trigger": "拆下",
+                "trigger_start_index": 9,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 9,
+                        "role": "方式",
+                        "argument": "十字螺丝刀",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 11,
+                        "argument_end_index": 22,
+                        "role": "受事者",
+                        "argument": "直流接线端子上的保护盖",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

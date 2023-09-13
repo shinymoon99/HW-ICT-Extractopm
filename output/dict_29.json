@@ -1,0 +1,30 @@
+[
+    {
+        "text": "6. 对SSL客户端或服务器应用SSL策略。",
+        "id": "120",
+        "event_list": [
+            {
+                "event_type": "通用行为-应用",
+                "trigger": "应用",
+                "trigger_start_index": 14,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 14,
+                        "role": "受事者",
+                        "argument": "SSL客户端或服务器",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 16,
+                        "argument_end_index": 21,
+                        "role": "内容",
+                        "argument": "SSL策略",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]

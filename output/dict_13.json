@@ -1,0 +1,93 @@
+[
+    {
+        "text": "4. （可选）关闭指定协议的端口防攻击功能。",
+        "id": "20",
+        "event_list": [
+            {
+                "event_type": "通用行为-关闭",
+                "trigger": "关闭",
+                "trigger_start_index": 7,
+                "arguments": [
+                    {
+                        "argument_start_index": 9,
+                        "argument_end_index": 16,
+                        "role": "受事者",
+                        "argument": "指定协议的端口",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 16,
+                        "argument_end_index": 21,
+                        "role": "内容",
+                        "argument": "防攻击功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* OFF：关闭流量控制功能。",
+        "id": "50",
+        "event_list": [
+            {
+                "event_type": "通用行为-关闭",
+                "trigger": "关闭",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "流量控制功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* OFF：关闭端口隔离功能。",
+        "id": "55",
+        "event_list": [
+            {
+                "event_type": "通用行为-关闭",
+                "trigger": "关闭",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "端口隔离功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    },
+    {
+        "text": "* OFF：关闭节能模式功能。",
+        "id": "64",
+        "event_list": [
+            {
+                "event_type": "通用行为-关闭",
+                "trigger": "关闭",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "argument_start_index": 8,
+                        "argument_end_index": 14,
+                        "role": "内容",
+                        "argument": "节能模式功能",
+                        "alias": []
+                    }
+                ],
+                "class": "通用行为"
+            }
+        ]
+    }
+]
