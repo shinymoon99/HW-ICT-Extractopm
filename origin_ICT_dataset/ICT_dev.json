@@ -1,0 +1,472 @@
+[
+    {
+        "text": "在接口视图下执行命令 **display this** 可以看到接口GE0/0/3已经配置为信任接口。",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "执行",
+                "trigger_start_index": 6,
+                "arguments": [
+                    {
+                        "arguments_start_index": 1,
+                        "arguments_end_index": 6,
+                        "role": "条件",
+                        "argument": "接口视图下",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 0,
+                        "arguments_end_index": 0,
+                        "role": "对象",
+                        "argument": "",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "指定显示地址池中过期的，处于空闲状态IP地址信息。",
+        "event_list": [
+            {
+                "event_type": "系统配置-地址配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "arguments_start_index": 2,
+                        "arguments_end_index": 24,
+                        "role": "对象",
+                        "argument": "显示地址池中过期的，处于空闲状态IP地址信息",
+                        "alias": []
+                    }
+                ],
+                "class": "系统配置"
+            }
+        ]
+    },
+    {
+        "text": "\\# 配置SwitchA，将接口GE0/0/1、GE0/0/2和GE0/0/3加入VLAN100（管理VLAN）。",
+        "event_list": [
+            {
+                "event_type": "系统配置-接口配置",
+                "trigger": "配置",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "arguments_start_index": 5,
+                        "arguments_end_index": 12,
+                        "role": "执行者",
+                        "argument": "SwitchA",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 13,
+                        "arguments_end_index": 56,
+                        "role": "对象",
+                        "argument": "将接口GE0/0/1、GE0/0/2和GE0/0/3加入VLAN100（管理VLAN）",
+                        "alias": []
+                    }
+                ],
+                "class": "系统配置"
+            }
+        ]
+    },
+    {
+        "text": "\\# 创建认证域\"abc11\"，并在认证域其上绑定AAA方案\"abc\"与RADIUS服务器模板\"rd1\"。",
+        "event_list": [
+            {
+                "event_type": "操作命令-创建",
+                "trigger": "创建",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "arguments_start_index": 5,
+                        "arguments_end_index": 15,
+                        "role": "对象",
+                        "argument": "认证域\"abc11\"",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "\\# 在CSG上创建路由策略，并向对等体应用路由策略。",
+        "event_list": [
+            {
+                "event_type": "操作命令-创建",
+                "trigger": "创建",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "arguments_start_index": 4,
+                        "arguments_end_index": 7,
+                        "role": "执行者",
+                        "argument": "CSG",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 10,
+                        "arguments_end_index": 26,
+                        "role": "对象",
+                        "argument": "路由策略，并向对等体应用路由策略",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "根据指定的 mode 设置下次启动基础包",
+        "event_list": [
+            {
+                "event_type": "操作命令-创建",
+                "trigger": "设置",
+                "trigger_start_index": 11,
+                "arguments": [
+                    {
+                        "arguments_start_index": 13,
+                        "arguments_end_index": 20,
+                        "role": "对象",
+                        "argument": "下次启动基础包",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "\\# 配置AC上行接口GE0/0/2加入VLAN101（业务VLAN）。",
+        "event_list": [
+            {
+                "event_type": "系统配置-接口配置",
+                "trigger": "配置",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "arguments_start_index": 5,
+                        "arguments_end_index": 35,
+                        "role": "对象",
+                        "argument": "AC上行接口GE0/0/2加入VLAN101（业务VLAN）",
+                        "alias": []
+                    }
+                ],
+                "class": "系统配置"
+            }
+        ]
+    },
+    {
+        "text": "在CE1和CE2上配置以太网CFM的基本功能。指定以太网CFM协议为Standard2007标准版本，MD的名称是md3，MA的名称是ma3，并且配置MA与VLAN绑定。",
+        "event_list": [
+            {
+                "event_type": "配置事件-功能配置",
+                "trigger": "配置",
+                "trigger_start_index": 9,
+                "arguments": [
+                    {
+                        "arguments_start_index": 1,
+                        "arguments_end_index": 8,
+                        "role": "执行者",
+                        "argument": "CE1和CE2",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 11,
+                        "arguments_end_index": 84,
+                        "role": "对象",
+                        "argument": "以太网CFM的基本功能。指定以太网CFM协议为Standard2007标准版本，MD的名称是md3，MA的名称是ma3，并且配置MA与VLAN绑定",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "在VPN实例绑定的接口所在网段运行RIP",
+        "event_list": [
+            {
+                "event_type": "操作命令-执行",
+                "trigger": "运行",
+                "trigger_start_index": 15,
+                "arguments": [
+                    {
+                        "arguments_start_index": 1,
+                        "arguments_end_index": 15,
+                        "role": "执行者",
+                        "argument": "VPN实例绑定的接口所在网段",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 17,
+                        "arguments_end_index": 20,
+                        "role": "对象",
+                        "argument": "RIP",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "系统发送RA报文的跳数限制值，既依赖于系统视图下执行",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "arguments_start_index": 0,
+                        "arguments_end_index": 2,
+                        "role": "执行者",
+                        "argument": "系统",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 4,
+                        "arguments_end_index": 14,
+                        "role": "对象",
+                        "argument": "RA报文的跳数限制值",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "客户端发送的DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突，导致丢弃客户端报文数量。",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "arguments_start_index": 0,
+                        "arguments_end_index": 3,
+                        "role": "执行者",
+                        "argument": "客户端",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 6,
+                        "arguments_end_index": 35,
+                        "role": "对象",
+                        "argument": "DHCPv6报文源MAC和DHCPv6服务器MAC地址冲突",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "蓝牙报文上报经过AC时，AC发送报文到定位服务器的源IPv4地址。",
+        "event_list": [
+            {
+                "event_type": "消息传递-发送",
+                "trigger": "发送",
+                "trigger_start_index": 14,
+                "arguments": [
+                    {
+                        "arguments_start_index": 8,
+                        "arguments_end_index": 10,
+                        "role": "执行者",
+                        "argument": "AC",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 16,
+                        "arguments_end_index": 32,
+                        "role": "对象",
+                        "argument": "报文到定位服务器的源IPv4地址",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "\\# 在FWB上配置IP-Link，探测各ISP提供的链路状态是否正常。",
+        "event_list": [
+            {
+                "event_type": "配置事件-地址配置",
+                "trigger": "配置",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "arguments_start_index": 4,
+                        "arguments_end_index": 7,
+                        "role": "执行者",
+                        "argument": "FWB",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 10,
+                        "arguments_end_index": 17,
+                        "role": "对象",
+                        "argument": "IP-Link",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "部署VLAN特性，用于区分不同类型的企业用户。",
+        "event_list": [
+            {
+                "event_type": "操作命令-部署",
+                "trigger": "部署",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "arguments_start_index": 2,
+                        "arguments_end_index": 8,
+                        "role": "对象",
+                        "argument": "VLAN特性",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "\\# 从IP地址为10.137.12.10的tftp服务器上获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项。",
+        "event_list": [
+            {
+                "event_type": "消息传递-接收",
+                "trigger": "获取并恢复",
+                "trigger_start_index": 30,
+                "arguments": [
+                    {
+                        "arguments_start_index": 26,
+                        "arguments_end_index": 29,
+                        "role": "执行者",
+                        "argument": "服务器",
+                        "alias": []
+                    },
+                    {
+                        "arguments_start_index": 30,
+                        "arguments_end_index": 69,
+                        "role": "对象",
+                        "argument": "获取并恢复已备份的文件名为\"backup\"的DHCP Snooping绑定表项",
+                        "alias": []
+                    }
+                ],
+                "class": "消息传递"
+            }
+        ]
+    },
+    {
+        "text": "选择Speed模式，表示业务接口指示灯正在指示接口速率状态。",
+        "event_list": [
+            {
+                "event_type": "操作命令-选择",
+                "trigger": "选择",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "arguments_start_index": 2,
+                        "arguments_end_index": 9,
+                        "role": "对象",
+                        "argument": "Speed模式",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "\\# 分别创建AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS。",
+        "event_list": [
+            {
+                "event_type": "操作命令-创建",
+                "trigger": "创建",
+                "trigger_start_index": 5,
+                "arguments": [
+                    {
+                        "arguments_start_index": 7,
+                        "arguments_end_index": 39,
+                        "role": "对象",
+                        "argument": "AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    },
+    {
+        "text": "\\# 配置SwitchB端口GigabitEthernet0/0/2为边缘端口。",
+        "event_list": [
+            {
+                "event_type": "配置事件-端口配置",
+                "trigger": "配置",
+                "trigger_start_index": 3,
+                "arguments": [
+                    {
+                        "arguments_start_index": 5,
+                        "arguments_end_index": 39,
+                        "role": "对象",
+                        "argument": "SwitchB端口GigabitEthernet0/0/2为边缘端口",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "指定非信任接口丢弃DHCP Server回应报文数达到阈值时而产生告警。",
+        "event_list": [
+            {
+                "event_type": "配置事件-接口配置",
+                "trigger": "指定",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "arguments_start_index": 2,
+                        "arguments_end_index": 29,
+                        "role": "对象",
+                        "argument": "非信任接口丢弃DHCP Server回应报文数达到阈值",
+                        "alias": []
+                    }
+                ],
+                "class": "配置事件"
+            }
+        ]
+    },
+    {
+        "text": "输入新建Telnet或者STelnet登录用户名。",
+        "event_list": [
+            {
+                "event_type": "操作命令-输入",
+                "trigger": "输入",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "arguments_start_index": 2,
+                        "arguments_end_index": 24,
+                        "role": "对象",
+                        "argument": "新建Telnet或者STelnet登录用户名",
+                        "alias": []
+                    }
+                ],
+                "class": "操作命令"
+            }
+        ]
+    }
+]

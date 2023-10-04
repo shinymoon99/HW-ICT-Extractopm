@@ -1,0 +1,5 @@
+{"event_type": "配置", "role_list": [{"role": "范围"}, {"role": "受事者"}, {"role": "地点"}, {"role": "到对象"}, {"role": "方式"}, {"role": "内容"}], "class": "配置"}
+{"event_type": "查看", "role_list": [{"role": "对象"}, {"role": "方式"}, {"role": "执行者"}, {"role": "内容"}], "class": "查看"}
+{"event_type": "创建", "role_list": [{"role": "对象"}, {"role": "方式"}, {"role": "执行者"}, {"role": "受事者"}], "class": "创建"}
+{"event_type": "点击", "role_list": [{"role": ""}, {"role": "地点"}, {"role": "受事者"}, {"role": "按钮/菜单论元角色"}], "class": "点击"}
+{"event_type": "选择", "role_list": [{"role": ""}, {"role": "受事者"}, {"role": "按钮/菜单论元角色"}, {"role": "对象"}, {"role": "地点"}, {"role": "方式"}, {"role": "内容"}], "class": "选择"}
