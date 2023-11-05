@@ -19,13 +19,13 @@ from tqdm import tqdm
 maxlen = 128
 batch_size = 32
 epochs = 1
-config_path = '../BERT/bert_config.json'
-checkpoint_path = '../BERT/checkpoint'
-dict_path = '../BERT/vocab.txt'
+config_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt'
 
 # 读取schema
 labels = []
-with open('./datasets/ICT_schema.json') as f:
+with open('./datasets/ICT_v1/ICT_schema.json') as f:
     for l in f:
         l = json.loads(l)
         t = l['event_type']
@@ -57,8 +57,8 @@ def load_data(filename):
 
 
 # 加载数据集
-train_data = load_data('./datasets/ICT_train.json')
-valid_data = load_data('./datasets/ICT_dev.json')
+train_data = load_data('./datasets/ICT_v1/ICT_train.json')
+valid_data = load_data('./datasets/ICT_v1/ICT_dev.json')
 
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
