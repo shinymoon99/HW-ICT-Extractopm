@@ -11,14 +11,14 @@
                     {
                         "argument_start_index": 5,
                         "argument_end_index": 15,
-                        "role": "受事者",
+                        "role": "配置对象",
                         "argument": "Voice VLAN",
                         "alias": []
                     },
                     {
                         "argument_start_index": 16,
                         "argument_end_index": 30,
-                        "role": "内容",
+                        "role": "配置属性",
                         "argument": "802.1p和DSCP优先级",
                         "alias": []
                     }

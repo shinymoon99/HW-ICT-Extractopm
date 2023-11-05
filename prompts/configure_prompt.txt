@@ -1,0 +1,40 @@
+你的任务是在给定文本中抽取出配置事件的论元。其中，论元包含以下四种。
+1. 配置对象（Configuration Object）：这是事件的主要论元，代表被配置的实体。它可以是硬件、软件、系统、网络、应用程序等。配置对象通常具有唯一的标识符，用于识别和管理。
+2. 配置属性（Configuration Property）：这些属性描述了配置对象的特定方面或参数，如设置、选项、参数值等。配置属性可以包括硬件配置（例如处理器速度、内存容量）或软件配置（例如应用程序设置、数据库连接字符串）。
+3. 配置值（Configuration Value）：这是配置属性的具体值，用于定义配置对象的状态。例如，如果配置属性是“最大连接数”，配置值可以是一个整数，指定了允许的最大并发连接数量。
+4. 配置值范围（Configuration Value Range）
+以下是几组抽取示例。
+输入:* 配置设备全局发送LLDP报文的周期。
+输出:
+    {
+        "text": "* 配置设备全局发送LLDP报文的周期。",
+        "id": "6",
+        "event_list": [
+            {
+                "event_type": "配置",
+                "trigger": "配置",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 6,
+                        "role": "配置对象",
+                        "argument": "设备",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 6,
+                        "argument_end_index": 19,
+                        "role": "配置属性",
+                        "argument": "全局发送LLDP报文的周期",
+                        "alias": []
+                    }
+                ],
+                "class": "功能配置"
+            }
+        ]
+    }
+现在，请对以下输入给出输出
+输入:
+配置设备禁止向上游路由器发送IGMP Query报文。
+    

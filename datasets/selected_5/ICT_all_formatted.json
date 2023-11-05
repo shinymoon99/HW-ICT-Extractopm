@@ -11,14 +11,14 @@
                     {
                         "argument_start_index": 5,
                         "argument_end_index": 15,
-                        "role": "受事者",
+                        "role": "配置对象",
                         "argument": "Voice VLAN",
                         "alias": []
                     },
                     {
                         "argument_start_index": 16,
                         "argument_end_index": 30,
-                        "role": "内容",
+                        "role": "配置属性",
                         "argument": "802.1p和DSCP优先级",
                         "alias": []
                     }
@@ -37,17 +37,17 @@
                 "trigger_start_index": 12,
                 "arguments": [
                     {
-                        "argument_start_index": 3,
-                        "argument_end_index": 11,
-                        "role": "方式",
-                        "argument": "选择执行下列命令",
+                        "argument_start_index": 14,
+                        "argument_end_index": 20,
+                        "role": "配置对象",
+                        "argument": "不同的过滤器",
                         "alias": []
                     },
                     {
-                        "argument_start_index": 14,
+                        "argument_start_index": 20,
                         "argument_end_index": 26,
-                        "role": "内容",
-                        "argument": "不同的过滤器进行路由过滤",
+                        "role": "配置属性",
+                        "argument": "进行路由过滤",
                         "alias": []
                     }
                 ],
@@ -87,9 +87,16 @@
                 "arguments": [
                     {
                         "argument_start_index": 4,
+                        "argument_end_index": 6,
+                        "role": "配置对象",
+                        "argument": "设备",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 6,
                         "argument_end_index": 19,
-                        "role": "内容",
-                        "argument": "设备全局发送LLDP报文的周期",
+                        "role": "配置属性",
+                        "argument": "全局发送LLDP报文的周期",
                         "alias": []
                     }
                 ],
@@ -305,15 +312,22 @@
         "id": "28",
         "event_list": [
             {
-                "event_type": "点击",
+                "event_type": "点选",
                 "trigger": "单击",
                 "trigger_start_index": 3,
                 "arguments": [
                     {
                         "argument_start_index": 6,
                         "argument_end_index": 8,
-                        "role": "按钮/菜单论元角色",
+                        "role": "点选对象",
                         "argument": "应用",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 14,
+                        "role": "点选影响",
+                        "argument": "完成配置",
                         "alias": []
                     }
                 ],
@@ -326,15 +340,22 @@
         "id": "30",
         "event_list": [
             {
-                "event_type": "点击",
+                "event_type": "点选",
                 "trigger": "单击",
                 "trigger_start_index": 5,
                 "arguments": [
                     {
                         "argument_start_index": 8,
                         "argument_end_index": 29,
-                        "role": "按钮/菜单论元角色",
+                        "role": "点选对象",
                         "argument": "无线业务 > WIDS配置 > 动态黑名单",
+                        "alias": []
+                    },
+                    {
+                        "argument_start_index": 31,
+                        "argument_end_index": 42,
+                        "role": "点选影响",
+                        "argument": "进入“动态黑名单”页面",
                         "alias": []
                     }
                 ],
