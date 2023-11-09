@@ -341,7 +341,7 @@ def predict_to_file(in_file, out_file):
     fw.close()
 
 
-if __name__ == '__main__':
+if __name__ != '__main__':
 
     train_generator = data_generator(train_data, batch_size)
     evaluator = Evaluator()
@@ -356,4 +356,4 @@ if __name__ == '__main__':
 else:
 
     model.load_weights('best_model.e.weights')
-    # predict_to_file('../datasets/duee_test2.json', 'duee.json')
+    predict_to_file('./datasets/ICT_v1/ICT_test_new.json', './datasets/ICT_v1/ICT_test_pred.json')
