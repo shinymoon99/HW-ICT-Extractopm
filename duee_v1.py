@@ -329,6 +329,8 @@ def predict_to_file(in_file, out_file):
                             'role': argu[1],
                             'argument': argu[2]
                         })
+                    else:
+                        final_event['trigger']=argu[2]
                 event_list = [
                     event for event in event_list
                     if not isin(event, final_event)
