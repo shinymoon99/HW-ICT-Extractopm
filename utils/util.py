@@ -40,7 +40,7 @@ def convertDUEE2eval(data):
             eval_argu = (event["event_type"],argument["role"],argument["argument"])
             eval_event.append(eval_argu)
         # trigger
-        eval_event.append(event["event_type"],"触发词",event["trigger"])
+        eval_event.append((event["event_type"],"触发词",event["trigger"]))
         eval_data.append(eval_event)
     return eval_data
 class DedupList(list):
