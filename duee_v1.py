@@ -57,8 +57,8 @@ def load_data(filename):
 
 
 # 加载数据集
-train_data = load_data('./datasets/ICT_v1/ICT_train.json')
-valid_data = load_data('./datasets/ICT_v1/ICT_dev.json')
+train_data = load_data('./datasets/ICT_v1/ICT_train_new.json')
+valid_data = load_data('./datasets/ICT_v1/ICT_test_new.json')
 
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
