@@ -18,7 +18,7 @@ from tqdm import tqdm
 
 maxlen = 128
 batch_size = 32
-epochs = 1
+epochs = 50
 config_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_config.json'
 checkpoint_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_model.ckpt'
 dict_path = '../BERT/chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt'
@@ -57,8 +57,8 @@ def load_data(filename):
 
 
 # 加载数据集
-train_data = load_data('./datasets/ICT_v1/train.json')
-valid_data = load_data('./datasets/ICT_v1/test.json')
+train_data = load_data('./datasets/ICT_v1/train_l.json')
+valid_data = load_data('./datasets/ICT_v1/test_l.json')
 
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
@@ -343,7 +343,7 @@ def predict_to_file(in_file, out_file):
     fw.close()
 
 
-if __name__ != '__main__':
+if __name__ == '__main__':
 
     train_generator = data_generator(train_data, batch_size)
     evaluator = Evaluator()
