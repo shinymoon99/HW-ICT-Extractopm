@@ -1323,7 +1323,7 @@
         ]
     },
     {
-        "text": "在虚拟桌面环境查看虚拟桌面界面。",
+        "text": "在虚拟桌面环境查看虚拟桌面界面。\n",
         "id": 1,
         "event_list": [
             {
@@ -1343,6 +1343,1006 @@
                         "argument_end_index": 15,
                         "role": "对象",
                         "argument": "虚拟桌面界面",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看服务器性能报告\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "服务器性能报告",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看数据库备份日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "数据库备份日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络拓扑图\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 7,
+                        "role": "对象",
+                        "argument": "网络拓扑图",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看防火墙日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 7,
+                        "role": "对象",
+                        "argument": "防火墙日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看交换机配置文件\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "交换机配置文件",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看路由器接口统计数据\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "路由器接口统计数据",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看操作系统事件日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "操作系统事件日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看虚拟机资源利用率\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "虚拟机资源利用率",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看用户登录历史\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 8,
+                        "role": "对象",
+                        "argument": "用户登录历史",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看应用程序错误日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "应用程序错误日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看安全摄像头录像\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "安全摄像头录像",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看无线网络连接信息\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "无线网络连接信息",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看电子邮件收件箱\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "电子邮件收件箱",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看存储设备容量报告\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "存储设备容量报告",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看服务器硬件监控数据\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "服务器硬件监控数据",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看云服务使用情况报告\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "云服务使用情况报告",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看防病毒软件扫描日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "防病毒软件扫描日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看无线路由器配置设置\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "无线路由器配置设置",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看数据库表格内容\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "数据库表格内容",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看电子文档版本历史\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "电子文档版本历史",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看服务器远程控制界面\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "服务器远程控制界面",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看虚拟桌面用户会话\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "虚拟桌面用户会话",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看日程管理应用数据\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "日程管理应用数据",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络带宽使用情况\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络带宽使用情况",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看打印任务队列状态\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "打印任务队列状态",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看视频会议记录文件\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "视频会议记录文件",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看远程服务器管理日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "远程服务器管理日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看数据库查询执行计划\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "数据库查询执行计划",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络路由表信息\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "网络路由表信息",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络配置备份文件\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络配置备份文件",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看文件共享权限设置\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "文件共享权限设置",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看虚拟机快照历史\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "虚拟机快照历史",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看操作系统补丁安装状态\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 12,
+                        "role": "对象",
+                        "argument": "操作系统补丁安装状态",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看移动设备定位数据\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "移动设备定位数据",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看服务器存储阵列状态\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "服务器存储阵列状态",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络设备日志文件\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络设备日志文件",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看防火墙规则配置\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "防火墙规则配置",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络流量分析报告\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络流量分析报告",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看云服务器资源监测\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "云服务器资源监测",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看数据库表格关系图\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "数据库表格关系图",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看系统备份和还原日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "系统备份和还原日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看远程桌面连接历史\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "远程桌面连接历史",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络拓扑变更记录\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络拓扑变更记录",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看服务器存储利用率报告\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 12,
+                        "role": "对象",
+                        "argument": "服务器存储利用率报告",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看移动应用性能统计\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "移动应用性能统计",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络设备固件版本\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "网络设备固件版本",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看虚拟机迁移日志\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 9,
+                        "role": "对象",
+                        "argument": "虚拟机迁移日志",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看操作系统用户权限设置\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 12,
+                        "role": "对象",
+                        "argument": "操作系统用户权限设置",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看应用程序配置文件\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 10,
+                        "role": "对象",
+                        "argument": "应用程序配置文件",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "查看网络安全漏洞扫描报告",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "查看",
+                "trigger": "查看",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 12,
+                        "role": "对象",
+                        "argument": "网络安全漏洞扫描报告",
                         "alias": []
                     }
                 ]

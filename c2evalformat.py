@@ -83,7 +83,7 @@ names = ["点选","配置","查看","创建"]
 file_names = ["click","configure","view","create"]
 for i in range(4):
     format_dataset = []
-    with open(f"./datasets/selected_4/test_txt/{file_names[i]}_SL_test.txt","r",encoding="utf-8") as f:
+    with open(f"./datasets/selected_4/train_txt/{file_names[i]}_SL.txt","r",encoding="utf-8") as f:
         inputtexts =f.readlines()
 
     sourcetexts = removeQuotes(inputtexts)
@@ -93,5 +93,5 @@ for i in range(4):
         labelposes.append(label_pos)
         output_data =build_data(s,label_pos,e_type)
         format_dataset.append(output_data)
-    with open(f"./datasets/selected_4/test_json/{file_names[i]}.json","w") as f1:
+    with open(f"./datasets/selected_4/train_json/{file_names[i]}.json","w") as f1:
         json.dump(format_dataset,f1)
