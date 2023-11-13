@@ -1,0 +1,72 @@
+{"text": "单击\"下载\"，将License文件下载到本地。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"下载\""}, {"role": "影响", "argument": "将License文件下载到本地"}], "trigger": "单击"}]}
+{"text": "单击对应配置项后面的\"增加\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [], "trigger": "单击"}]}
+{"text": "单击\"上传\"，开始上传补丁文件。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"上传\""}, {"role": "影响", "argument": "开始上传补丁文件"}], "trigger": "单击"}]}
+{"text": "勾选\"使用预置模板\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"使用预置模板\""}], "trigger": "勾选"}]}
+{"text": "单击\"应用\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"应用\""}], "trigger": "单击"}]}
+{"text": "单击功能选择区的\"网络\"菜单，进入\"网络\"界面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"网络\"界面"}], "trigger": "单击"}]}
+{"text": "单击\"应用\"，完成配置。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"应用\""}, {"role": "影响", "argument": "完成配置"}], "trigger": "单击"}]}
+{"text": "依次单击\"无线业务 > WIDS配置 > 动态黑名单\"，进入\"动态黑名单\"页面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"无线业务 > WIDS配置 > 动态黑名单\""}, {"role": "影响", "argument": "进入\"动态黑名单\"页面"}], "trigger": "单击"}]}
+{"text": "依次单击\"配置 > 基本业务管理 > VLAN\"菜单。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"配置 > 基本业务管理 > VLAN\""}], "trigger": "单击"}]}
+{"text": "依次单击\"配置 > 安全业务管理 > AAA配置\"菜单，选择\"业务随行\"页签。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [], "trigger": "单击\"配置 > 安全业务管理 > AAA配置\"菜单，选择"}]}
+{"text": "单击导航树中的\"诊断工具\"菜单，进入\"诊断工具\"界面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"诊断工具\"界面"}], "trigger": "单击"}]}
+{"text": "勾选需要移出的AP，单击\"移出\"，在弹出框中选择移出后AP需要加入的AP组。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"移出\""}], "trigger": "单击"}]}
+{"text": "在以太网子菜单下，选择2，进入修改以太网参数菜单。\n", "id": 1, "event_list": []}
+{"text": "选择对应的VLAN IDM取消接口加入的该VLAN组播组。\n", "id": 1, "event_list": []}
+{"text": "确认配置无误后，单击\"完成\"，完成配置确认。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"完成\""}, {"role": "影响", "argument": "完成配置确认"}], "trigger": "单击"}]}
+{"text": "选中\"仅生成交换机堆叠license（数通使用）\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"仅生成交换机堆叠license（数通使用）\""}], "trigger": "选中"}]}
+{"text": "单击\"卸载\"，删除当前系统上的补丁。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"卸载\""}, {"role": "影响", "argument": "删除当前系统上的补丁"}], "trigger": "单击"}]}
+{"text": "请阅读\"用户须知\"中的内容，勾选\"我已详细阅读\"并单击\"下一步\"。\n", "id": 1, "event_list": []}
+{"text": "依次单击\"监控 > 用户 > 无线用户统计\"，进入\"无线用户统计\"页面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"监控 > 用户 > 无线用户统计\""}, {"role": "影响", "argument": "进入\"无线用户统计\"页面"}], "trigger": "单击"}]}
+{"text": "单击\"应用\"，完成配置。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"应用\""}, {"role": "影响", "argument": "完成配置"}], "trigger": "单击"}]}
+{"text": "单击\"全部通过认证\"，确认所有认证未通过的AP，允许其上线。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"全部通过认证\""}, {"role": "影响", "argument": "确认所有认证未通过的AP，允许其上线"}], "trigger": "单击"}, {"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"全部通过认证\""}, {"role": "影响", "argument": "允许其上线"}], "trigger": "单击"}]}
+{"text": "单击提示框的\"确定\"，完成配置。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "完成配置"}], "trigger": "单击"}]}
+{"text": "单击需要修改的认证服务器名称，进入修改认证服务器页面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入修改认证服务器页面"}], "trigger": "单击"}]}
+{"text": "在左边树形导航栏选择：\"License激活 > 授权激活\"，进入授权激活页面。\n", "id": 1, "event_list": []}
+{"text": "勾选\"查看双向镜像端口\"前的单选框，查看双向镜像端口。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"查看双向镜像端口\""}, {"role": "影响", "argument": "查看双向镜像端口"}], "trigger": "勾选"}]}
+{"text": "在弹出提示框中单击\"确定\"，完成配置。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"确定\""}, {"role": "影响", "argument": "完成配置"}], "trigger": "单击"}]}
+{"text": "单击\"全部移出\"，可移出指定AP组下的全部AP。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"全部移出\""}], "trigger": "单击"}]}
+{"text": "单击\"配置 > 进阶业务管理 > 镜像配置\"菜单，进入\"镜像配置\"界面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"镜像配置\"界面"}], "trigger": "单击"}]}
+{"text": "勾选\"创建VLANIF接口可配置\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"创建VLANIF接口可配置\""}], "trigger": "勾选"}]}
+{"text": "单击导航树中的\"系统管理 > 堆叠\"菜单，进入\"堆叠\"界面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"堆叠\"界面"}], "trigger": "单击"}]}
+{"text": "在弹出的对话框中单击\"确定\"。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "对象", "argument": "\"确定\""}], "trigger": "单击"}]}
+{"text": "单击导航树中的\"安全 > AAA配置 > 域管理\"菜单，进入\"域管理\"界面。\n", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"域管理\"界面"}], "trigger": "单击"}]}
+{"text": "单击导航树中的\"工具 > Ping\"菜单，进入\"Ping\"界面", "id": 1, "event_list": [{"event_type": "点选", "arguments": [{"role": "影响", "argument": "进入\"Ping\"界面"}], "trigger": "单击"}]}
+{"text": "配置Voice VLAN的802.1p和DSCP优先级。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "Voice VLAN的802.1p和DSCP优先级"}], "trigger": "配置"}]}
+{"text": "配置不同的过滤器进行路由过滤。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [], "trigger": "配置"}]}
+{"text": "配置AGG ASBR和Core ASBR。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "AGG ASBR和Core ASBR"}], "trigger": "配置"}]}
+{"text": "配置设备全局发送LLDP报文的周期。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "设备全局发送LLDP报文的周期"}], "trigger": "配置"}]}
+{"text": "（可选）配置设备禁止向上游路由器发送IGMP Query报文。\n", "id": 1, "event_list": []}
+{"text": "配置FTP服务器的IP地址、用户名、密码及工作目录。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "FTP服务器的IP地址、用户名、密码及工作目录"}], "trigger": "配置"}]}
+{"text": "配置接口允许通过的VLAN，取值范围是1～4094。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口允许通过的VLAN"}], "trigger": "配置"}]}
+{"text": "配置BGP对从全局接收的路由进行过滤。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "BGP对从全局接收的路由进行过滤"}], "trigger": "配置"}]}
+{"text": "配置simple加密方式认证。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "simple加密方式认证"}], "trigger": "配置"}]}
+{"text": "配置设备与控制器建立连接时使用的对接密码。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "设备与控制器建立连接时使用的对接密码"}], "trigger": "配置"}]}
+{"text": "配置接口加入的缺省VLAN，取值范围为1～4094。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口加入的缺省VLAN"}], "trigger": "配置"}]}
+{"text": "配置Trunk类型接口的缺省VLAN，取值范围是1～4094。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "Trunk类型接口的缺省VLAN"}], "trigger": "配置"}]}
+{"text": "配置Keychain认证。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "Keychain认证"}], "trigger": "配置"}]}
+{"text": "为模板配置AS接口入方向上DHCP报文的限速值。\n", "id": 1, "event_list": []}
+{"text": "配置接口的链路类型为Hybrid。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口的链路类型"}], "trigger": "配置"}, {"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口的链路类型为Hybrid"}], "trigger": "配置"}]}
+{"text": "配置新的rule规则，并删除不用的rule规则。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [], "trigger": "配置"}]}
+{"text": "（可选）配置在邻居状态由Down到Up时将BGP4+路由的优先级调整为最低优先级。\n", "id": 1, "event_list": []}
+{"text": "根据需要，配置PIM剪枝控制参数。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "PIM剪枝控制参数"}], "trigger": "配置"}]}
+{"text": "（可选）配置设备重启后将BGP4+路由延迟发布。\n", "id": 1, "event_list": []}
+{"text": "配置接口的LLDP工作模式。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口的LLDP工作模式"}], "trigger": "配置"}]}
+{"text": "配置模板中未知单播流量抑制功能的包速率。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "模板中未知单播流量抑制功能的包速率"}], "trigger": "配置"}]}
+{"text": "（可选）配置BGP4+内存保护。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "BGP4+内存保护"}], "trigger": "配置"}]}
+{"text": "（可选）配置BGP把发布给邻居的路由改为最低优先级。\n", "id": 1, "event_list": []}
+{"text": "在SwitchB配置两条IP静态路由。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "两条IP静态路由"}], "trigger": "配置"}]}
+{"text": "（可选）配置BGP内存保护。\n", "id": 1, "event_list": []}
+{"text": "配置直连方式多主检测。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "直连方式多主检测"}], "trigger": "配置"}]}
+{"text": "配置接口以untagged方式允许缺省VLAN通过。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "接口以untagged方式允许缺省VLAN通过"}], "trigger": "配置"}]}
+{"text": "配置Join/Prune报文中Join信息的合法源地址范围。\n", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "Join/Prune报文中Join信息的合法源地址范围"}], "trigger": "配置"}]}
+{"text": "配置安全MAC地址的限制数，取值范围为1～1024。", "id": 1, "event_list": [{"event_type": "配置", "arguments": [{"role": "内容", "argument": "安全MAC地址的限制数"}], "trigger": "配置"}, {"event_type": "配置", "arguments": [{"role": "内容", "argument": "安全MAC地址的限制数，取值范围"}], "trigger": "配置"}]}
+{"text": "新建Portal认证服务器。\n", "id": 1, "event_list": []}
+{"text": "根据生成规则自动创建MIP。\n", "id": 1, "event_list": []}
+{"text": "创建认证域\"abc11\"，并在认证域其上绑定AAA方案\"abc\"与RADIUS服务器模板\"rd1\"。\n", "id": 1, "event_list": [{"event_type": "创建", "arguments": [], "trigger": "创建"}]}
+{"text": "在CSG上创建路由策略，并向对等体应用路由策略。\n", "id": 1, "event_list": [{"event_type": "创建", "arguments": [{"role": "位置", "argument": "CSG上"}], "trigger": "创建"}]}
+{"text": "分别创建AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS。", "id": 1, "event_list": [{"event_type": "创建", "arguments": [], "trigger": "创建"}]}
+{"text": "查看Stack-Port端口的事件信息\n", "id": 1, "event_list": [{"event_type": "查看", "arguments": [{"role": "对象", "argument": "Stack-Port端口的事件信息"}], "trigger": "查看"}]}
+{"text": "查看Eth-Trunk接口故障原因\n", "id": 1, "event_list": [{"event_type": "查看", "arguments": [{"role": "对象", "argument": "Eth-Trunk接口故障原因"}], "trigger": "查看"}]}
+{"text": "查看设备本次以及下次启动的配置文件名\n", "id": 1, "event_list": [{"event_type": "查看", "arguments": [{"role": "对象", "argument": "设备本次以及下次启动的配置文件名"}], "trigger": "查看"}]}
+{"text": "查看接口GE0/0/1下的IP报文检查功能的配置信息。\n", "id": 1, "event_list": [{"event_type": "查看", "arguments": [{"role": "对象", "argument": "接口GE0/0/1下的IP报文检查功能的配置信息"}], "trigger": "查看"}]}
+{"text": "在Switch_1上查看VLANIF10接口的ARP表项，可以看到VLANIF10接口的IP地址对应的MAC地址。", "id": 1, "event_list": [{"event_type": "查看", "arguments": [{"role": "对象", "argument": "VLANIF10接口的ARP表项"}], "trigger": "查看"}, {"event_type": "查看", "arguments": [{"role": "对象", "argument": "VLANIF10接口的ARP表项，可以看到VLANIF10接口的IP地址对应的MAC地址"}], "trigger": "查看"}, {"event_type": "查看", "arguments": [{"role": "对象", "argument": "VLANIF10接口的IP地址对应的MAC地址"}], "trigger": "查看"}]}
