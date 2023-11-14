@@ -1,1 +1,102 @@
-[{"text": "\u65b0\u5efaPortal\u8ba4\u8bc1\u670d\u52a1\u5668\u3002\n", "id": 1, "event_list": [{"event_type": "\u521b\u5efa", "trigger": "\u65b0\u5efa", "trigger_start_index": 0, "arguments": [{"argument_start_index": 2, "argument_end_index": 13, "role": "\u5bf9\u8c61", "argument": "Portal\u8ba4\u8bc1\u670d\u52a1\u5668", "alias": []}]}]}, {"text": "\u6839\u636e\u751f\u6210\u89c4\u5219\u81ea\u52a8\u521b\u5efaMIP\u3002\n", "id": 1, "event_list": [{"event_type": "\u521b\u5efa", "trigger": "\u521b\u5efa", "trigger_start_index": 8, "arguments": [{"argument_start_index": 10, "argument_end_index": 13, "role": "\u5bf9\u8c61", "argument": "MIP", "alias": []}]}]}, {"text": "\u521b\u5efa\u8ba4\u8bc1\u57df\"abc11\"\uff0c\u5e76\u5728\u8ba4\u8bc1\u57df\u5176\u4e0a\u7ed1\u5b9aAAA\u65b9\u6848\"abc\"\u4e0eRADIUS\u670d\u52a1\u5668\u6a21\u677f\"rd1\"\u3002\n", "id": 1, "event_list": [{"event_type": "\u521b\u5efa", "trigger": "\u521b\u5efa", "trigger_start_index": 0, "arguments": [{"argument_start_index": 2, "argument_end_index": 12, "role": "\u5bf9\u8c61", "argument": "\u8ba4\u8bc1\u57df\"abc11\"", "alias": []}]}]}, {"text": "\u5728CSG\u4e0a\u521b\u5efa\u8def\u7531\u7b56\u7565\uff0c\u5e76\u5411\u5bf9\u7b49\u4f53\u5e94\u7528\u8def\u7531\u7b56\u7565\u3002\n", "id": 1, "event_list": [{"event_type": "\u521b\u5efa", "trigger": "\u521b\u5efa", "trigger_start_index": 5, "arguments": [{"argument_start_index": 7, "argument_end_index": 11, "role": "\u5bf9\u8c61", "argument": "\u8def\u7531\u7b56\u7565", "alias": []}]}]}, {"text": "\u5206\u522b\u521b\u5efaAAA\u8ba4\u8bc1\u548c\u8ba1\u8d39\u65b9\u6848\"abc\"\u5e76\u914d\u7f6e\u8ba4\u8bc1\u548c\u8ba1\u8d39\u65b9\u5f0f\u4e3aRADIUS\u3002", "id": 1, "event_list": [{"event_type": "\u521b\u5efa", "trigger": "\u521b\u5efa", "trigger_start_index": 2, "arguments": [{"argument_start_index": 4, "argument_end_index": 19, "role": "\u5bf9\u8c61", "argument": "AAA\u8ba4\u8bc1\u548c\u8ba1\u8d39\u65b9\u6848\"abc\"", "alias": []}]}]}]
+[
+    {
+        "text": "新建Portal认证服务器。\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "创建",
+                "trigger": "新建",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 13,
+                        "role": "对象",
+                        "argument": "Portal认证服务器",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "根据生成规则自动创建MIP。\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "创建",
+                "trigger": "创建",
+                "trigger_start_index": 8,
+                "arguments": [
+                    {
+                        "argument_start_index": 10,
+                        "argument_end_index": 13,
+                        "role": "对象",
+                        "argument": "MIP",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "创建认证域\"abc11\"，并在认证域其上绑定AAA方案\"abc\"与RADIUS服务器模板\"rd1\"。\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "创建",
+                "trigger": "创建",
+                "trigger_start_index": 0,
+                "arguments": [
+                    {
+                        "argument_start_index": 2,
+                        "argument_end_index": 12,
+                        "role": "对象",
+                        "argument": "认证域\"abc11\"",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "在CSG上创建路由策略，并向对等体应用路由策略。\n",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "创建",
+                "trigger": "创建",
+                "trigger_start_index": 5,
+                "arguments": [
+                    {
+                        "argument_start_index": 7,
+                        "argument_end_index": 11,
+                        "role": "对象",
+                        "argument": "路由策略",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "分别创建AAA认证和计费方案\"abc\"并配置认证和计费方式为RADIUS。",
+        "id": 1,
+        "event_list": [
+            {
+                "event_type": "创建",
+                "trigger": "创建",
+                "trigger_start_index": 2,
+                "arguments": [
+                    {
+                        "argument_start_index": 4,
+                        "argument_end_index": 19,
+                        "role": "对象",
+                        "argument": "AAA认证和计费方案\"abc\"",
+                        "alias": []
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -58,7 +58,7 @@ def load_data(filename):
 
 # 加载数据集
 train_data = load_data('./datasets/ICT_v1/train_l.json')
-valid_data = load_data('./datasets/ICT_v3/evaltest/eval.json')
+valid_data = load_data('./datasets/ICT_v3/evaltest/test.json')
 
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
@@ -358,4 +358,4 @@ if __name__ == '__main__':
 else:
 
     model.load_weights('best_model.e.weights')
-    predict_to_file('./datasets/ICT_v3/evaltest/test.json', './datasets/ICT_v3/ICT_test_pred.json')
+    predict_to_file('./datasets/ICT_v3/evaltest/eval.json', './datasets/ICT_v3/ICT_eval_pred.json')

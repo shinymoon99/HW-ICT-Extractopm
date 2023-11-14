@@ -1489,6 +1489,13 @@
                         "role": "对象",
                         "argument": "路由策略",
                         "alias": []
+                    },
+                    {
+                        "argument_start_index": 1,
+                        "argument_end_index": 5,
+                        "role": "位置",
+                        "argument": "CSG上",
+                        "alias": []
                     }
                 ]
             }
